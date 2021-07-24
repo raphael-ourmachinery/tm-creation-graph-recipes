@@ -1,0 +1,3562 @@
+__type: "tm_dcc_asset"
+__uuid: "a2258275-c273-1e67-216e-5cd899c4dc17"
+scene: "ec3679a2-e1b6-e562-1665-bd4891eb48f9"
+accessors: [
+	{
+		__uuid: "0de3ae08-9801-2a7a-e62e-e81b995f77b1"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "61582960-a86b-5185-8c55-0c36c36efe0c"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 16
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "035ad5ff-14fe-0af6-6088-3de04f4c38ef"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 656
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a05df076-9bd4-3c15-9ccd-b4186495cb2e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 1168
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "cbacd06d-cb36-f049-bebc-aa5161c236f7"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 1680
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "93feb88b-26c9-5fd5-416f-384245547e23"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 2320
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "db04b067-3c98-c5e4-bd7b-208c95fc204b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 2832
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "15a41623-ffae-89bb-7187-5d6c0af71485"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 2848
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "c3e0f9fa-5de3-4dba-ed99-415de3c3e9d2"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 3488
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "0916c428-42ab-316a-f2d5-e0149f35fda7"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 4000
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "7439a3e1-5fec-a598-f33c-a000b832f1f3"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 4016
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "9716241d-799a-3b9e-c91e-f4653d023827"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 4656
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "82e38403-1de9-0bde-580c-daa618365dbc"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 5168
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a12a9216-d0d2-417c-9c3b-9cc2a1c7fe37"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 5184
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "263f7424-e0ca-d27c-8cac-e42e234ae178"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 5824
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "78c34aa2-3488-bf7e-21f2-a3106163a299"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 6336
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "5676820d-ad05-d8cb-a5ea-56b8b0e8f726"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 6352
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "d6362053-0cb9-c838-d7e2-db94bee48c50"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 6992
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "5be351fc-38ae-aef1-a173-8aeba22d9697"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 7504
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "035861cd-385e-d64a-d0e2-5c0395eb0428"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 7520
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "214b0163-95f5-389d-b336-dc5a116995d4"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 8160
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "185153a8-d6bc-e3b6-df6d-8db39b256589"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 8672
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "32720919-9d95-c8d5-e0c8-4236c9d7e0b6"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 8688
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "880452e8-96a8-1376-e6a7-ef2cfe63daaa"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 9328
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "50a66ee4-ec30-3e8a-484b-5ea589af2d74"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 9840
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "3e7c356f-23b3-e30d-7496-34db8e3eca58"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 9856
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "86fc57d9-1149-a5fe-8aeb-464e17dba35e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 10496
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "030c9249-7a4b-1f96-6145-84048de6c64f"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 11008
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "1bcc74e3-002a-9d05-8644-b52779acb365"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 11024
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "2ce7b2fc-a31b-cdfd-17dd-287a19ddef31"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 11664
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "1759cdd6-793e-c5fd-95f9-9d3a1109d863"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 12176
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "b0f5be62-e7b8-fd87-b6de-437ffe6b654f"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 12192
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "7ae1ee35-9eaf-110c-ff5c-f896f6a3c43d"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 12832
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "4b3fab9b-d213-b23b-8810-5d27f68be4d8"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 13344
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "bcd7c1cb-8038-e76c-dd42-3af05d31aa05"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 13360
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "55dd99c4-d383-1c7b-70b8-d55ffac8e3fa"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 14000
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "35ff412a-9d6b-2a9b-b549-b110486c0dc3"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 14512
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "8b683c5b-049e-0a4d-e318-d168e78578a9"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 14528
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "31937c25-95cb-5294-44c2-916c7e7ce3e9"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 15168
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "30d99370-3235-7ba4-47f8-487f17885a39"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 15680
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "9757c290-21b8-9904-63dd-833289030b7a"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 15696
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "31342638-16b3-7a4c-bd64-f33a82778e0b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 16336
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "492d821c-a958-c27a-0fc3-d5a678f419be"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 16848
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "26bdd307-24b7-ed26-5ee1-a34d508e4a68"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 16864
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "2320303a-5a51-2627-1b5d-9873aa14f234"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 17504
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "b0b152b8-1a15-b497-ab8f-f88bda91bb3b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 18016
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "58f69ce8-0d18-a550-8565-38d40d07c5e6"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 18032
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "9a350655-6bd2-9375-d401-4293174d8893"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 18672
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "95f9bba3-99e4-300e-c92b-8c7ff585d071"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 19184
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "f588d698-930f-1bd7-b077-d2f0d1582def"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 19200
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "26c66bf0-a020-5850-003f-5c876920744d"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 19840
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "e5e1dfaf-7965-e8c8-5b09-e2a28aba2166"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 20352
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "d8742c63-ec74-b0ee-b335-65c7b18480e7"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 20368
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "833cfebf-7154-5a65-8820-2d0f8fa92010"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 21008
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "65b005ad-8e6a-c05a-b714-a19e1aa19a59"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 21520
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "d017725e-f0e8-8b1b-9fa2-adffb3e82c8e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 21536
+		count: 1
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "5ea9ad87-1c0d-fcfc-f599-a8db572be6cb"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 21556
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "b31deb2f-7d22-0b41-8001-d542cb4a6f83"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 21572
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "3cf402bb-ec2f-b644-ff20-a1eae1bf86cd"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 21588
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "ada9de1e-b047-69ae-94bf-43021669641d"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 22228
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "3c4e2cf2-348b-c86c-bfaf-4b96eb239b46"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 22740
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "96b35df6-1752-c9ab-dbf4-435d69142c06"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 22756
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "e08f6b0b-f8aa-9092-374c-dc4f9d32d906"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 23396
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "aed8d23c-d86a-4e24-d61b-ab8f28dd7457"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 23908
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "66b22aa8-5c7c-df66-fd88-d30ce6c33846"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 23924
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "3abfab56-a3ad-b462-0740-a69fe305cebd"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 24564
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "3a1a5e33-bf98-5afc-88bd-4264a60852c3"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 25076
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "b132d2f7-fe70-6502-15aa-f29842ff8277"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 25092
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "ef9d45e2-7fd5-fcda-d01a-81164686b0d0"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 25732
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "d800d516-2bef-b09c-af35-fd02b4912ba1"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 26244
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "4d0158ea-bcc4-2c75-cca1-ff53c82a3d7e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 26260
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "c6527f37-31a2-57f2-9229-29d1fb2263fa"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 26900
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "c0cbd5b8-4986-4a1a-b0b3-2e3cc296b89b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 27412
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "90ffb6dc-187f-fc08-5cde-4cbb25025d82"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 27428
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "2547ba22-af7d-1da9-d531-0219bf05bf73"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 28068
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "7499439e-4507-8c5d-2c13-4c246248f5ce"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 28580
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "97c8a011-b4bd-3e9c-4e3e-81de9b0e4fe5"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 28596
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "b0f35f36-b79a-0445-1afd-8360371f1643"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 29236
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "c709f6c3-a3b2-1aee-36c3-bbf44b8d3411"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 29748
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a70f4eeb-7ff4-2151-3063-36d6021585e8"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 29764
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "ddc265b4-00f7-12b9-3201-e5333e35696e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 30404
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "2cd3c9ac-79ac-f292-68d0-e2dedc2917dd"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 30916
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "80cfe2c3-453a-8ba7-23bc-1ed632e5573c"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 30932
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "418107c6-1a85-5c28-3c9e-5c931edf2250"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 31572
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "40971795-9711-02d3-369d-2a2c689e08a2"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 32084
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "8480e297-a82f-27c9-d758-c0766714c82f"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 32100
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "fdef16e6-35c6-a4df-a1b9-aa602de41ee8"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 32740
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "23b23c59-c5d8-45e3-494d-45cdd39cd700"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 33252
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "424a841d-d3da-951c-d15f-f7300ba5c739"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 33268
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "70ca961b-20ba-ec57-6566-ed2a17e50bf5"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 33908
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a4627b87-d12d-7feb-11e9-8d92b5982779"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 34420
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "ddd993bc-ba4f-f829-9216-c075cbc3a1ad"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 34436
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "b43ddf34-33ad-5719-c896-2cf2e37719d9"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 35076
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "cecdf52b-72ee-d88b-4a04-b034e4261045"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 35588
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "50f69235-e62a-4575-e3ac-44b11842ac96"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 35604
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "935fa350-5664-604c-2d8a-b62c0f4a6a8e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 36244
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "d685d160-465e-e528-d017-69f47b28f33c"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 36756
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "1e3ed67d-f8c3-8a09-468a-47cc8aa0d7f1"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 36772
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "bca1536f-e014-f064-afef-6d957dcb69bc"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 37412
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "0e1b0f23-dc48-f86f-0560-e2533de05b2c"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 37924
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "0080d9b8-d968-143f-6c85-e02e26e2d663"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 37940
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "a101f221-6a2c-1a8e-8057-2948a68531c1"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 38580
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "7260bdd9-ae66-3708-20e7-dabddac760d9"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 39092
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "aa752045-f26e-87dc-eb5a-70d4d99f98d2"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 39108
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "ac5c8532-1477-5b2d-3dea-3478db44afbc"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 39748
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "e7a9175f-54ae-3df6-0902-be8a868fbece"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 40260
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "39fd9044-54ff-24b5-38fc-1747b803c150"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 40276
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "af8c11fc-53d7-9974-c890-5abfb003dcd1"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 40916
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "60820fc3-63b7-c6d0-b261-1a9a2ecb254c"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 41428
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "8fb13a1d-08ec-e28e-ae9b-181526a526fa"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 41444
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "2fcd2759-010d-52ac-90b6-e2d129eb2322"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 42084
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "8a7ac4ee-2f35-8c56-e79c-69cb9fb49d86"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 42596
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "5fe3bb5d-18b7-2c04-80c8-78f3c711ef1f"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 42612
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "396e1f96-399f-2169-92fa-cfc86add38b4"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 43252
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "6d40c661-cf30-2618-ef46-bd4848c266b0"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 43764
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "16cb2a32-c135-af02-c55a-1b728179dff9"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 43780
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "555ddd53-bfe4-1fca-a6a9-2561015afbe3"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 44420
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "2b349663-2ddb-0a13-8616-c3cdba59562e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 44932
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "5f24fdfc-ad1f-cb31-5c0c-feb993044a4a"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 44948
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "0a08c3e3-581a-b332-7e58-15451592a436"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 45588
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "3f7e5a49-c0da-bca5-b4f0-49a8733a381d"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 46100
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "f893c339-d429-a313-4f50-fd9ac8e11cb6"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 46116
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "258e67e5-ce9d-41b8-8698-2dbf7468c926"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 46756
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "057509b4-7b21-9e40-8ea5-e9fa861214fa"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 47268
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "b5286281-de6a-49a4-a8e0-e1eafcb1f158"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 47284
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "c09524cb-dfc0-13b7-249f-81929926d482"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 47924
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a68e545b-51b2-1014-5f1d-fbf99ae92091"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 48436
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "f2641704-305d-7f9a-e76c-7b2c8cc7d57f"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 48452
+		count: 1
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "423f8877-61e8-a761-eed7-22b019b3ef9c"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 48472
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "30d9d3d8-ec3c-9e84-7e72-12e837e1ea39"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 48488
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "5db3220d-33db-68cd-0c28-ba18eb3b5fec"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 48504
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "d0240350-abe4-dd13-e9d0-6b8ac8cb8eb6"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 49144
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a898c407-367c-3c8a-24a7-c8b26c6b161b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 49656
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "9a4a8156-2099-9ad9-e9c9-515751f44a02"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 49672
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "264df7dc-9c92-889e-73fe-20995327aa4f"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 50312
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "5b036af9-20fe-cd3d-3dd5-1c24c7c3509b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 50824
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "638eb995-d149-1555-ac22-47bcacfd73a4"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 50840
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "74edc6d6-0af0-db49-9681-c607b15f0cf2"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 51480
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "51f61368-0c0b-36d0-be28-aaac9de53b2b"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 51992
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "3a6ff883-7d4a-9ac2-3243-d243c9d89831"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 52008
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "331000c4-49a2-254d-1bba-03e2b8bef7de"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 52648
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "7de6d7db-53ab-fc3d-ec96-95ae111f4276"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 53160
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "f8534e90-3e0c-7878-c720-8723547635e0"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 53176
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "572dc0c5-41fe-c42a-d4db-e0819c373115"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 53816
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "053af427-8438-6968-6bb0-f189f67de902"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 54328
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "492a6095-2dec-dd7c-0e2c-bc11f85f8bd6"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 54344
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "285f942d-ee77-5fa6-0efa-1c6d862f6300"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 54984
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "c30409bf-faef-f7dd-fa96-f8760a42b820"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 55496
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "f72cc864-17a4-af0e-bbe7-d5bdbf31b498"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 55512
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "52f52ac0-b502-7826-2485-d88b7aefcecf"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 56152
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "a43b537f-348a-a27a-f851-5e7219156c58"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 56664
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "326c70c4-c6d3-8a13-1805-bd279a059b1e"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 56680
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "adfb9eb0-d31b-57a6-bf92-4902a4a00c81"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 57320
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "6f134182-f6b8-627a-3586-969c9e47f054"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 57832
+		count: 1
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+	{
+		__uuid: "b6715066-d212-44b5-a062-db37bdf3a3f3"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 57848
+		count: 32
+		is_float: true
+		is_signed: true
+		is_normalized: true
+		bits: 160
+		component_count: 5
+	}
+	{
+		__uuid: "8c24c774-7fc7-9c8d-3e97-919fbedf609d"
+		buffer: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		offset: 58488
+		count: 32
+		is_float: true
+		is_signed: true
+		bits: 128
+		component_count: 4
+	}
+]
+buffers: [
+	{
+		__uuid: "6575f829-35b1-5d5b-cadb-5e3fa878b1a0"
+		name: "mixamo.com"
+		data: "f5d2803e41d6141b"
+	}
+]
+nodes: [
+	{
+		__uuid: "cf668118-fb85-3035-2180-95cc3a5d54e6"
+		name: "mixamorig:HeadTop_End"
+		position: {
+			__uuid: "cef5ac74-1016-69bd-d553-12e567f4fad9"
+			y: 17.81520080566406
+			z: 2.585000038146973
+		}
+		rotation: {
+			__uuid: "5bb891e7-5790-793f-59fc-95952b4ddeb9"
+			w: 1
+		}
+		scale: {
+			__uuid: "952ff369-0265-fad9-1bc0-640d9ecce7bc"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "cb9471cc-df2c-602e-a099-e5777214cdeb"
+		name: "mixamorig:LeftEye"
+		position: {
+			__uuid: "5537e78b-1865-5ad8-879f-59a010010fbc"
+			x: 3.067600011825562
+			y: 6.409500122070313
+			z: 9.283599853515625
+		}
+		rotation: {
+			__uuid: "8482d149-20a8-d4fd-79ef-746e7785033f"
+			w: 1
+		}
+		scale: {
+			__uuid: "7534db3e-eaba-4837-55b6-d24e779dea25"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "9454d5e9-1d0b-7556-9d92-c018ae9f2b3d"
+		name: "mixamorig:RightEye"
+		position: {
+			__uuid: "c07e74a8-48ef-e753-dda7-a4b9ee10eb3c"
+			x: -3.067600011825562
+			y: 6.409500122070313
+			z: 9.283499717712402
+		}
+		rotation: {
+			__uuid: "d04b9a36-6201-932d-e6c0-89e66f2ca510"
+			w: 1
+		}
+		scale: {
+			__uuid: "1e47bf1c-5f8d-6cab-6b3b-97202a06dbb8"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "bf60c6fc-a41d-dcee-51db-861634727be1"
+		name: "mixamorig:Head"
+		position: {
+			__uuid: "1462e2bd-21e9-2129-766a-93fef8b77b01"
+			y: 9.617899894714355
+			z: 1.684999942779541
+		}
+		rotation: {
+			__uuid: "5d6e43d6-4acb-3be4-1950-2a92b9f50cfd"
+			w: 1
+		}
+		scale: {
+			__uuid: "7a006c47-0baf-aba6-c89d-6741796b8ea6"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"cf668118-fb85-3035-2180-95cc3a5d54e6"
+			"cb9471cc-df2c-602e-a099-e5777214cdeb"
+			"9454d5e9-1d0b-7556-9d92-c018ae9f2b3d"
+		]
+	}
+	{
+		__uuid: "714384d6-6d70-b8b0-1fff-c0b52285547e"
+		name: "mixamorig:Neck"
+		position: {
+			__uuid: "52aa29c5-41a2-27e9-b20b-e9d6810ed376"
+			y: 16.67169952392578
+			z: -2.516200065612793
+		}
+		rotation: {
+			__uuid: "e737147b-8389-f248-c44d-2092d1cedeab"
+			w: 1
+		}
+		scale: {
+			__uuid: "1b4516bd-347a-bcbf-2307-e8a414721d10"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"bf60c6fc-a41d-dcee-51db-861634727be1"
+		]
+	}
+	{
+		__uuid: "661c6e0d-5ab6-dd0b-7bf3-cba98af4240e"
+		name: "mixamorig:LeftHandThumb4"
+		position: {
+			__uuid: "92e0a6d4-d2ee-fdf3-3d6d-43c4f81e2b0b"
+			x: 1.954599976539612
+			y: -1.128499984741211
+			z: 1.128499984741211
+		}
+		rotation: {
+			__uuid: "59feed29-8488-ede3-33e0-186fd3e4d4b5"
+			w: 1
+		}
+		scale: {
+			__uuid: "3af89ba5-844d-7569-1deb-00e5cc004335"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "131b83e3-c89a-fabf-cbad-491473be42f7"
+		name: "mixamorig:LeftHandThumb3"
+		position: {
+			__uuid: "e7568a10-c2ee-c9ae-e640-c4ca580ed085"
+			x: 2.652600049972534
+			y: -1.531499981880188
+			z: 1.531499981880188
+		}
+		rotation: {
+			__uuid: "754e3d66-e41a-9a4d-c511-e9652875ad18"
+			w: 1
+		}
+		scale: {
+			__uuid: "b8fceafb-6cb9-5242-2f84-e0dc340e2b67"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"661c6e0d-5ab6-dd0b-7bf3-cba98af4240e"
+		]
+	}
+	{
+		__uuid: "60777aeb-ce19-123c-dc71-7c651a8cc95e"
+		name: "mixamorig:LeftHandThumb2"
+		position: {
+			__uuid: "6e3834af-7b01-62f1-7752-c1967ac0c7b7"
+			x: 3.22979998588562
+			y: -1.864699959754944
+			z: 1.864699959754944
+		}
+		rotation: {
+			__uuid: "b8f93cf1-998e-b4fc-a45d-897a5206ec8b"
+			w: 1
+		}
+		scale: {
+			__uuid: "7073b151-a49f-733b-d1c1-33d48693053a"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"131b83e3-c89a-fabf-cbad-491473be42f7"
+		]
+	}
+	{
+		__uuid: "c4b06791-4b04-9945-b54c-a3ea19a1a941"
+		name: "mixamorig:LeftHandThumb1"
+		position: {
+			__uuid: "9b6f8fab-f312-a16f-2c77-726673011c32"
+			x: 2.466099977493286
+			y: -1.575000047683716
+			z: 2.682399988174438
+		}
+		rotation: {
+			__uuid: "00dda3ee-7228-63c7-3bb5-770da3ac976a"
+			x: -9.02370666153729e-05
+			y: -8.05367308203131e-05
+			z: 7.576062489533797e-05
+			w: 1
+		}
+		scale: {
+			__uuid: "b598714b-6128-3492-b61a-0b0bf572ac88"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"60777aeb-ce19-123c-dc71-7c651a8cc95e"
+		]
+	}
+	{
+		__uuid: "db34e8b8-e516-d2ec-5f32-d5c68e8db47d"
+		name: "mixamorig:LeftHandIndex4"
+		position: {
+			__uuid: "e29f2696-cda7-e9b3-aeb1-9d71b6e8280d"
+			x: 2.392699956893921
+		}
+		rotation: {
+			__uuid: "d8de7707-7954-682b-b0d6-c99de240f9a8"
+			w: 1
+		}
+		scale: {
+			__uuid: "2bb3efbb-271f-d8c0-c586-8b869644135f"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "4bc46387-31b9-ffb6-53d7-fd5e228741a6"
+		name: "mixamorig:LeftHandIndex3"
+		position: {
+			__uuid: "da47340a-b27b-33f7-a4fe-72249f33c2bd"
+			x: 2.883100032806396
+		}
+		rotation: {
+			__uuid: "eedc79c6-4830-b33f-9989-685b4d18f4c3"
+			w: 1
+		}
+		scale: {
+			__uuid: "9869bf0d-1048-7ca4-cc4d-97b8f928bb52"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"db34e8b8-e516-d2ec-5f32-d5c68e8db47d"
+		]
+	}
+	{
+		__uuid: "7b21686a-df0c-cc09-27a0-0f93b4455335"
+		name: "mixamorig:LeftHandIndex2"
+		position: {
+			__uuid: "82ec5b29-6dc9-6886-257c-bc5d39f74a8f"
+			x: 3.676399946212769
+		}
+		rotation: {
+			__uuid: "6bbb2849-391e-6bcc-9dc9-7bf877e3839e"
+			w: 1
+		}
+		scale: {
+			__uuid: "14c4227c-2d8e-44d6-efee-1ca8b91f7b88"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"4bc46387-31b9-ffb6-53d7-fd5e228741a6"
+		]
+	}
+	{
+		__uuid: "13ad7322-b575-3681-3ac7-ff7c5de47aa1"
+		name: "mixamorig:LeftHandIndex1"
+		position: {
+			__uuid: "311ad632-d747-05e5-581a-fcd27223eea5"
+			x: 9.109299659729004
+			y: -0.5170999765396118
+			z: 2.2600998878479
+		}
+		rotation: {
+			__uuid: "6657c926-d163-6a7b-ea29-36bb5705324a"
+			w: 1
+		}
+		scale: {
+			__uuid: "46b1fc69-d6df-6a4c-b992-534ff17ddce6"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"7b21686a-df0c-cc09-27a0-0f93b4455335"
+		]
+	}
+	{
+		__uuid: "4c79714a-e6bc-7f1d-9d98-a9ad3d975699"
+		name: "mixamorig:LeftHandMiddle4"
+		position: {
+			__uuid: "907aed1e-8633-92b6-463e-eec351f39414"
+			x: 2.833899974822998
+		}
+		rotation: {
+			__uuid: "1d8b6517-de61-267e-f584-a677a896fb7a"
+			w: 1
+		}
+		scale: {
+			__uuid: "a3985a8a-6708-61b6-a0f4-bc62280936f9"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "1f77409b-3ab7-7f98-7521-06940aa41890"
+		name: "mixamorig:LeftHandMiddle3"
+		position: {
+			__uuid: "e4e7937d-df32-63c9-a69b-f67ce5bf2db7"
+			x: 2.950900077819824
+		}
+		rotation: {
+			__uuid: "35ca0cf0-7e69-ba62-90f4-c8595b1fac80"
+			w: 1
+		}
+		scale: {
+			__uuid: "2896f892-8796-758a-81e1-97de628cb1f0"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"4c79714a-e6bc-7f1d-9d98-a9ad3d975699"
+		]
+	}
+	{
+		__uuid: "639d7309-a154-7fb5-0a3a-74960a28672f"
+		name: "mixamorig:LeftHandMiddle2"
+		position: {
+			__uuid: "781f0b38-4d11-a68a-6273-999adf5adaf2"
+			x: 3.698199987411499
+		}
+		rotation: {
+			__uuid: "e377f028-3dba-cac7-2814-66b1985f7908"
+			w: 1
+		}
+		scale: {
+			__uuid: "c917036c-24c5-759d-00ce-a9410e9c56b5"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"1f77409b-3ab7-7f98-7521-06940aa41890"
+		]
+	}
+	{
+		__uuid: "232beff0-cb5b-8b2d-8fb5-40cc109fa9ff"
+		name: "mixamorig:LeftHandMiddle1"
+		position: {
+			__uuid: "ecb1b141-73bf-129d-61af-0df0f7f697f9"
+			x: 9.53339958190918
+		}
+		rotation: {
+			__uuid: "a4452edf-7ed0-b7c1-e02a-e3be8aade91e"
+			w: 1
+		}
+		scale: {
+			__uuid: "a8c8a537-710f-0865-9d35-30ea9fff9c5e"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"639d7309-a154-7fb5-0a3a-74960a28672f"
+		]
+	}
+	{
+		__uuid: "77f165b4-bfb5-e55b-2b7b-714050813899"
+		name: "mixamorig:LeftHandRing4"
+		position: {
+			__uuid: "532d99e9-a8ab-4ccd-eae6-449eed90e55c"
+			x: 2.647500038146973
+		}
+		rotation: {
+			__uuid: "6a84ab21-ab13-c063-1b97-e9091fa22e74"
+			w: 1
+		}
+		scale: {
+			__uuid: "46b4d3f2-8d58-602a-a890-b5aea6699a1a"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "0587e8f2-0613-2f1d-4ddf-f31921206dea"
+		name: "mixamorig:LeftHandRing3"
+		position: {
+			__uuid: "d732f1f1-79d3-6868-4afe-3cd9b05edc29"
+			x: 2.937700033187866
+		}
+		rotation: {
+			__uuid: "0b48f2bb-a1aa-6b2c-1862-c00e3073161a"
+			w: 1
+		}
+		scale: {
+			__uuid: "652aa118-60d3-2ed7-141a-de07021860e4"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"77f165b4-bfb5-e55b-2b7b-714050813899"
+		]
+	}
+	{
+		__uuid: "61f3f790-cf9b-1c21-8f83-89ff22d3d507"
+		name: "mixamorig:LeftHandRing2"
+		position: {
+			__uuid: "5ea3ac26-a900-a25b-ab1a-de345032b8f2"
+			x: 3.154000043869019
+		}
+		rotation: {
+			__uuid: "3eb50997-f484-a029-8934-bc55f12d96ba"
+			w: 1
+		}
+		scale: {
+			__uuid: "5ee09c18-6f9c-ff36-b122-c2f92a529b39"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"0587e8f2-0613-2f1d-4ddf-f31921206dea"
+		]
+	}
+	{
+		__uuid: "9b0036b4-2352-b5e5-016c-81042a0ec6a9"
+		name: "mixamorig:LeftHandRing1"
+		position: {
+			__uuid: "0ee7876d-4d33-ae0f-8a3a-bf32d6e48539"
+			x: 9.104499816894531
+			y: -0.04390000179409981
+			z: -1.865100026130676
+		}
+		rotation: {
+			__uuid: "c3ac367c-ec32-62c8-3c8e-843ecd4a4c3f"
+			w: 1
+		}
+		scale: {
+			__uuid: "2f1e0b5a-0882-5f0f-f844-9831ca49d9ea"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"61f3f790-cf9b-1c21-8f83-89ff22d3d507"
+		]
+	}
+	{
+		__uuid: "8f513efd-b9c5-c8d5-452a-9434fcc6ffdf"
+		name: "mixamorig:LeftHandPinky4"
+		position: {
+			__uuid: "2c20aa8e-f9a3-42c4-885c-9ad870a26474"
+			x: 1.9757000207901
+		}
+		rotation: {
+			__uuid: "9649354e-b4aa-b128-e131-8fd5d72ad1fe"
+			w: 1
+		}
+		scale: {
+			__uuid: "5d4f0fc8-92f1-4ac5-5e30-1bb73f715ed0"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "cf309e46-34f3-7fd2-8a0e-68630c069fd6"
+		name: "mixamorig:LeftHandPinky3"
+		position: {
+			__uuid: "a953e127-aa7f-abf8-613b-813423309ee0"
+			x: 2.114200115203857
+		}
+		rotation: {
+			__uuid: "0fe5cb8d-7f53-8d42-f76a-4e30e481ce99"
+			w: 1
+		}
+		scale: {
+			__uuid: "ca4f8a49-ff7e-0295-a607-59bb3708fa17"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"8f513efd-b9c5-c8d5-452a-9434fcc6ffdf"
+		]
+	}
+	{
+		__uuid: "75cee372-d898-740e-44bc-fc4ee9d5493c"
+		name: "mixamorig:LeftHandPinky2"
+		position: {
+			__uuid: "0866e2fe-6716-d792-6c49-80d2b327b2a4"
+			x: 3.599999904632568
+		}
+		rotation: {
+			__uuid: "ab39d8f3-a2aa-8805-8da4-4f55fd636bd7"
+			w: 1
+		}
+		scale: {
+			__uuid: "957ada37-0bf5-1303-6e5b-e96863c53728"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"cf309e46-34f3-7fd2-8a0e-68630c069fd6"
+		]
+	}
+	{
+		__uuid: "bd0211e4-2d58-121c-bc85-1d8afeaad1ba"
+		name: "mixamorig:LeftHandPinky1"
+		position: {
+			__uuid: "d2368760-a87a-4ae2-65d1-68821ce815bd"
+			x: 8.077799797058105
+			y: -0.4887000024318695
+			z: -3.806099891662598
+		}
+		rotation: {
+			__uuid: "469db30a-9cde-1df9-c56e-66a21e095739"
+			w: 1
+		}
+		scale: {
+			__uuid: "848763cb-9e84-97bd-c01d-5dbcfa89f991"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"75cee372-d898-740e-44bc-fc4ee9d5493c"
+		]
+	}
+	{
+		__uuid: "d266000a-21a1-598a-d474-5bef8a8ab35d"
+		name: "mixamorig:LeftHand"
+		position: {
+			__uuid: "5c045042-1a4d-11bc-4bff-f87195878269"
+			x: 28.32880020141602
+		}
+		rotation: {
+			__uuid: "841944d9-257e-0af6-2664-03a941f0cc22"
+			x: 0.0002255945582874119
+			w: 1
+		}
+		scale: {
+			__uuid: "a271bdae-b139-810b-56b9-4ab1b6714246"
+			x: 1
+			y: 0.9999999403953552
+			z: 0.9999999403953552
+		}
+		children: [
+			"c4b06791-4b04-9945-b54c-a3ea19a1a941"
+			"13ad7322-b575-3681-3ac7-ff7c5de47aa1"
+			"232beff0-cb5b-8b2d-8fb5-40cc109fa9ff"
+			"9b0036b4-2352-b5e5-016c-81042a0ec6a9"
+			"bd0211e4-2d58-121c-bc85-1d8afeaad1ba"
+		]
+	}
+	{
+		__uuid: "5e867ee5-78dd-2e4d-8d4b-bae99cdca7e1"
+		name: "mixamorig:LeftForeArm"
+		position: {
+			__uuid: "84c4e447-38e4-448f-0070-a80b605ba9ce"
+			x: 27.84149932861328
+			y: -9.999999747378752e-05
+		}
+		rotation: {
+			__uuid: "b8aa014b-696b-0691-48e7-f805a5cada16"
+			w: 1
+		}
+		scale: {
+			__uuid: "4b211987-578f-1b34-ff83-d4fb095e2e30"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"d266000a-21a1-598a-d474-5bef8a8ab35d"
+		]
+	}
+	{
+		__uuid: "4c83e2a5-1722-a8e2-6b78-ecf9aa6efe38"
+		name: "mixamorig:LeftArm"
+		position: {
+			__uuid: "eaf65b63-8a02-ff09-bf98-26ed6b0e624f"
+			x: 10.59239959716797
+			y: -0.5246000289916992
+			z: -2.232100009918213
+		}
+		rotation: {
+			__uuid: "f713038c-ea83-af2a-1059-e95b1adb57d9"
+			w: 1
+		}
+		scale: {
+			__uuid: "e25ba9ec-3176-83c0-d723-9a8c5f3a46fd"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"5e867ee5-78dd-2e4d-8d4b-bae99cdca7e1"
+		]
+	}
+	{
+		__uuid: "89015805-a7e5-0e12-f3e2-0c1ca5731334"
+		name: "mixamorig:LeftShoulder"
+		position: {
+			__uuid: "d62605ff-bf8c-8701-4b77-a966c3c6c849"
+			x: 4.570400238037109
+			y: 10.94600009918213
+			z: -2.628000020980835
+		}
+		rotation: {
+			__uuid: "027722dc-e353-5ae0-6adc-13b9db998ced"
+			w: 1
+		}
+		scale: {
+			__uuid: "763ffdcf-9c65-6909-9e81-2c11ca4e4bec"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"4c83e2a5-1722-a8e2-6b78-ecf9aa6efe38"
+		]
+	}
+	{
+		__uuid: "5f941632-1393-559c-8655-a9a87724827d"
+		name: "mixamorig:RightHandPinky4"
+		position: {
+			__uuid: "e2ef065f-a45d-2d0f-f8f0-ea7a7eafd6db"
+			x: -1.9757000207901
+		}
+		rotation: {
+			__uuid: "13a94338-d19a-783a-d884-b82adb2558e8"
+			w: 1
+		}
+		scale: {
+			__uuid: "d4eeaceb-5090-0e90-889d-796d146a0947"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "02c0ab39-cd8d-22f9-da8c-643be5546d96"
+		name: "mixamorig:RightHandPinky3"
+		position: {
+			__uuid: "89eeafe1-b003-2d5a-630b-ed287a0ba40e"
+			x: -2.114200115203857
+		}
+		rotation: {
+			__uuid: "064b2a0a-68ba-6494-19d2-31db0afa6082"
+			w: 1
+		}
+		scale: {
+			__uuid: "23edf3ce-a110-6ef6-6911-4e00625d0a1c"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"5f941632-1393-559c-8655-a9a87724827d"
+		]
+	}
+	{
+		__uuid: "a02c71c4-824a-2ea8-1fd1-384c06f9abde"
+		name: "mixamorig:RightHandPinky2"
+		position: {
+			__uuid: "1f481f33-2cb1-a98d-e5a4-44347740646e"
+			x: -3.599999904632568
+			z: 9.999999747378752e-05
+		}
+		rotation: {
+			__uuid: "45fd72b8-95e8-45c6-4410-7716f06bad28"
+			y: 1.388888904330088e-05
+			w: 1
+		}
+		scale: {
+			__uuid: "552be0fe-9b8f-9295-3cfb-8efda5657cdf"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"02c0ab39-cd8d-22f9-da8c-643be5546d96"
+		]
+	}
+	{
+		__uuid: "b1de2f9c-63e4-4dd5-9401-5759055631cd"
+		name: "mixamorig:RightHandPinky1"
+		position: {
+			__uuid: "ae28298f-dd50-89ca-c71d-cd2baf581026"
+			x: -8.076700210571289
+			y: -0.4884999990463257
+			z: -3.805999994277954
+		}
+		rotation: {
+			__uuid: "b7ee25ba-bf3d-0f55-17b2-cba37803a1fc"
+			y: -1.388888904330088e-05
+			w: 1
+		}
+		scale: {
+			__uuid: "bfd8d4f6-4036-d458-eb40-4fd45986c589"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"a02c71c4-824a-2ea8-1fd1-384c06f9abde"
+		]
+	}
+	{
+		__uuid: "6e2496c4-c52f-0ad4-496e-5c9757263c01"
+		name: "mixamorig:RightHandRing4"
+		position: {
+			__uuid: "ea321515-a2d6-7329-73ce-f62f7eef6432"
+			x: -2.647500038146973
+		}
+		rotation: {
+			__uuid: "52b02191-19c5-4d52-8bb6-273575b09013"
+			w: 1
+		}
+		scale: {
+			__uuid: "86c547e2-4913-8363-dd50-d73b904c9c85"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "f971375c-6c47-715f-df1f-f3fe61e21042"
+		name: "mixamorig:RightHandRing3"
+		position: {
+			__uuid: "3847de6f-3f14-3933-daa8-95b2d327e06b"
+			x: -2.937700033187866
+		}
+		rotation: {
+			__uuid: "3816cf2a-4bc7-1a55-15fd-91be6b7c9aec"
+			w: 1
+		}
+		scale: {
+			__uuid: "568af559-698b-aee9-f3a1-5f03f4aa143f"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"6e2496c4-c52f-0ad4-496e-5c9757263c01"
+		]
+	}
+	{
+		__uuid: "7889f300-a7bf-d22d-a0b1-88e295501830"
+		name: "mixamorig:RightHandRing2"
+		position: {
+			__uuid: "81f9575e-5949-1f83-4770-e795eabeef4c"
+			x: -3.154000043869019
+		}
+		rotation: {
+			__uuid: "4f0b7293-f171-1c14-0cdf-8642006008f8"
+			w: 1
+		}
+		scale: {
+			__uuid: "9e8158e1-bf09-574d-f05d-60c850e2ac10"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"f971375c-6c47-715f-df1f-f3fe61e21042"
+		]
+	}
+	{
+		__uuid: "a270bfc3-57d6-e675-c22b-2755a02aa040"
+		name: "mixamorig:RightHandRing1"
+		position: {
+			__uuid: "4a826eb3-34a7-50a3-a5ee-12a6d5fe784f"
+			x: -9.103599548339844
+			y: -0.04390000179409981
+			z: -1.865100026130676
+		}
+		rotation: {
+			__uuid: "40bcc0fd-44d3-9c10-6bbc-b304f2e3f5cc"
+			w: 1
+		}
+		scale: {
+			__uuid: "82582f40-8dc9-b010-7d71-0db72e1328d8"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"7889f300-a7bf-d22d-a0b1-88e295501830"
+		]
+	}
+	{
+		__uuid: "247001a8-fd5a-fef0-04e2-15685b0456c7"
+		name: "mixamorig:RightHandMiddle4"
+		position: {
+			__uuid: "aabde50c-3d38-de37-5b87-1393371fa080"
+			x: -2.833899974822998
+			z: 9.999999747378752e-05
+		}
+		rotation: {
+			__uuid: "2d80bddb-1bc0-41e5-1c0f-7d2e2e1f6963"
+			w: 1
+		}
+		scale: {
+			__uuid: "56f4b0fc-ce77-a545-0b4c-2ea245bb288c"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "0231c279-fe02-22af-82f4-99f1548efd9c"
+		name: "mixamorig:RightHandMiddle3"
+		position: {
+			__uuid: "eacfe287-0971-feda-d1fb-93415e685bec"
+			x: -2.950900077819824
+		}
+		rotation: {
+			__uuid: "e5535dbc-c0d4-e5f3-b46b-9a457224ca64"
+			y: -1.764352964528371e-05
+			w: 1
+		}
+		scale: {
+			__uuid: "30fc5e4a-e2e1-80cb-dc14-085cde1783c1"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"247001a8-fd5a-fef0-04e2-15685b0456c7"
+		]
+	}
+	{
+		__uuid: "0334554a-fda1-71e0-a1b5-0e3221bcefd4"
+		name: "mixamorig:RightHandMiddle2"
+		position: {
+			__uuid: "cd616fe9-b9c3-4eb4-37f2-04f22db148ee"
+			x: -3.698199987411499
+		}
+		rotation: {
+			__uuid: "a2e89379-a24e-db17-47eb-2d4a436abf21"
+			w: 1
+		}
+		scale: {
+			__uuid: "f2c22621-12a6-b90d-7a8e-26b8a4e10cff"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"0231c279-fe02-22af-82f4-99f1548efd9c"
+		]
+	}
+	{
+		__uuid: "56dacff9-bd5e-e7fc-a1af-4bee97bd6701"
+		name: "mixamorig:RightHandMiddle1"
+		position: {
+			__uuid: "3fb662e2-0d90-c083-236f-592aea71f091"
+			x: -9.532500267028809
+		}
+		rotation: {
+			__uuid: "f95a0f28-d9f9-40d9-1c38-fa54902d695d"
+			w: 1
+		}
+		scale: {
+			__uuid: "011c1a2e-08e8-a01c-2519-c6a2f34a8684"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"0334554a-fda1-71e0-a1b5-0e3221bcefd4"
+		]
+	}
+	{
+		__uuid: "cc59771b-556d-e44d-0189-f7bb5cc08d65"
+		name: "mixamorig:RightHandIndex4"
+		position: {
+			__uuid: "2cb7eb0c-dc1a-3e6b-811e-9fb09a13c543"
+			x: -2.392699956893921
+		}
+		rotation: {
+			__uuid: "7444e524-ba18-363b-2df4-cc7e7974073b"
+			w: 1
+		}
+		scale: {
+			__uuid: "bff4c3cd-6f9a-5e4c-4393-7cd171d49d49"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "9f880268-2039-2f35-8b71-83e7a3657210"
+		name: "mixamorig:RightHandIndex3"
+		position: {
+			__uuid: "f5788504-8cb1-300b-1988-69e2ec16e4da"
+			x: -2.883100032806396
+		}
+		rotation: {
+			__uuid: "3ced95ee-d666-997c-7d8b-84440f6440de"
+			w: 1
+		}
+		scale: {
+			__uuid: "126f7e37-05db-8586-cb0b-3f6f21a7a3f2"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"cc59771b-556d-e44d-0189-f7bb5cc08d65"
+		]
+	}
+	{
+		__uuid: "741638fa-f2b7-915d-55a7-0e4d966902ff"
+		name: "mixamorig:RightHandIndex2"
+		position: {
+			__uuid: "83ab3e08-2f78-65e8-6de4-dade9db51147"
+			x: -3.676399946212769
+		}
+		rotation: {
+			__uuid: "4bc57ea3-35f0-50ea-2409-06ece75cb38b"
+			w: 1
+		}
+		scale: {
+			__uuid: "358f6ca0-14a0-8dc7-7694-71e56f676335"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"9f880268-2039-2f35-8b71-83e7a3657210"
+		]
+	}
+	{
+		__uuid: "0a7a9202-31f0-fb0a-7ab7-2ef1d32db34d"
+		name: "mixamorig:RightHandIndex1"
+		position: {
+			__uuid: "c288ef49-196e-bace-a756-7f20357b5e3c"
+			x: -9.10830020904541
+			y: -0.5167999863624573
+			z: 2.2600998878479
+		}
+		rotation: {
+			__uuid: "b91a50cd-dfd7-6dd8-6d9e-d1c2c659405a"
+			w: 1
+		}
+		scale: {
+			__uuid: "6add4aee-d7eb-b742-6daf-876de7740736"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"741638fa-f2b7-915d-55a7-0e4d966902ff"
+		]
+	}
+	{
+		__uuid: "172e0275-3111-bc6f-7229-556593353ab9"
+		name: "mixamorig:RightHandThumb4"
+		position: {
+			__uuid: "15504bfa-7875-594e-82b0-da6a8f8bd799"
+			x: -1.954599976539612
+			y: -1.128499984741211
+			z: 1.128499984741211
+		}
+		rotation: {
+			__uuid: "1f7ff631-7995-cb7e-74a2-e98998323617"
+			w: 1
+		}
+		scale: {
+			__uuid: "99451b17-a3a5-1386-0bf6-39f06e646d06"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "70072985-b6d8-65f9-a99c-31785c95b715"
+		name: "mixamorig:RightHandThumb3"
+		position: {
+			__uuid: "999752fe-f6fb-4ca4-892a-28ad0e0cb11a"
+			x: -2.652600049972534
+			y: -1.531399965286255
+			z: 1.531399965286255
+		}
+		rotation: {
+			__uuid: "01d03584-ce1c-de3b-03a9-56e40d1e41c7"
+			x: -1.141677308247324e-10
+			y: -1.068493020284222e-05
+			z: -1.068493020284222e-05
+			w: 1
+		}
+		scale: {
+			__uuid: "3b863053-185c-7445-eab4-e230fb56a294"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"172e0275-3111-bc6f-7229-556593353ab9"
+		]
+	}
+	{
+		__uuid: "ec1fda8b-068d-e427-3307-4f3b13103e19"
+		name: "mixamorig:RightHandThumb2"
+		position: {
+			__uuid: "e1a868e9-a5c1-41f2-a300-7eceb995de2f"
+			x: -3.22979998588562
+			y: -1.864699959754944
+			z: 1.864699959754944
+		}
+		rotation: {
+			__uuid: "5d61abf1-3811-8cb1-cf55-24a2f3bac91c"
+			x: -4.310950901809107e-11
+			y: 6.565783223777544e-06
+			z: 6.565783223777544e-06
+			w: 1
+		}
+		scale: {
+			__uuid: "e8105a24-fedc-b9ef-ed00-9cb3876076a8"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"70072985-b6d8-65f9-a99c-31785c95b715"
+		]
+	}
+	{
+		__uuid: "bb2b1ce0-ab84-3742-b9bb-abb6df41b4a2"
+		name: "mixamorig:RightHandThumb1"
+		position: {
+			__uuid: "1df21768-6425-2b11-cd9f-d5f9cdaacc41"
+			x: -2.464799880981445
+			y: -1.572700023651123
+			z: 2.682600021362305
+		}
+		rotation: {
+			__uuid: "7a8772e9-98a1-bf7b-957e-352bd4f6f852"
+			x: -9.303139813710004e-05
+			y: 8.295562292914838e-05
+			z: -7.818173617124558e-05
+			w: 1
+		}
+		scale: {
+			__uuid: "f52731c4-f951-9b94-bb1c-c3355cff3bb9"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"ec1fda8b-068d-e427-3307-4f3b13103e19"
+		]
+	}
+	{
+		__uuid: "3e6bb225-91b2-1b84-857f-856e5aa75a60"
+		name: "mixamorig:RightHand"
+		position: {
+			__uuid: "7223be25-65d6-15e9-c78f-c2a5f2452dfe"
+			x: -28.32880020141602
+			z: 9.999999747378752e-05
+		}
+		rotation: {
+			__uuid: "bee6372e-85bb-a9ae-a8c2-03362e30fa63"
+			x: 0.0002325804380234331
+			y: 1.764988155628089e-06
+			z: -4.105017437083802e-10
+			w: 1
+		}
+		scale: {
+			__uuid: "ac37a552-cc77-bd23-61bf-eca492c4f97a"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"b1de2f9c-63e4-4dd5-9401-5759055631cd"
+			"a270bfc3-57d6-e675-c22b-2755a02aa040"
+			"56dacff9-bd5e-e7fc-a1af-4bee97bd6701"
+			"0a7a9202-31f0-fb0a-7ab7-2ef1d32db34d"
+			"bb2b1ce0-ab84-3742-b9bb-abb6df41b4a2"
+		]
+	}
+	{
+		__uuid: "bc1bbd2a-5257-baf4-8433-0f1bd23518c6"
+		name: "mixamorig:RightForeArm"
+		position: {
+			__uuid: "c81c8cf1-39ed-91ea-8080-32a854b3e5bd"
+			x: -27.84149932861328
+		}
+		rotation: {
+			__uuid: "7c054223-3ebe-3d39-6537-eebc5904f0d2"
+			w: 1
+		}
+		scale: {
+			__uuid: "78a0a0af-ab06-e306-92ef-8e9e2eaf5a05"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"3e6bb225-91b2-1b84-857f-856e5aa75a60"
+		]
+	}
+	{
+		__uuid: "f7c2484f-33c6-a9a9-67fc-367cc8edffde"
+		name: "mixamorig:RightArm"
+		position: {
+			__uuid: "986221c9-93d3-5914-a804-060e86be40fe"
+			x: -10.59280014038086
+			y: -0.5248000025749207
+			z: -2.232100009918213
+		}
+		rotation: {
+			__uuid: "6bb61352-cb85-25e7-d1f2-911c6b27e4da"
+			w: 1
+		}
+		scale: {
+			__uuid: "742f3491-cb53-3ad7-0531-bcee776b325b"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"bc1bbd2a-5257-baf4-8433-0f1bd23518c6"
+		]
+	}
+	{
+		__uuid: "0407f016-ea2b-80e7-3b42-aac00536dc02"
+		name: "mixamorig:RightShoulder"
+		position: {
+			__uuid: "8b33436d-4556-b929-374c-8f946c8aa467"
+			x: -4.570000171661377
+			y: 10.94620037078857
+			z: -2.628000020980835
+		}
+		rotation: {
+			__uuid: "8bd8c80c-eb45-ab3f-2947-9aa9b1d1629c"
+			w: 1
+		}
+		scale: {
+			__uuid: "e0bf4230-04d5-42c6-1ef3-035bb624bb56"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"f7c2484f-33c6-a9a9-67fc-367cc8edffde"
+		]
+	}
+	{
+		__uuid: "a6b91433-c55f-9e8b-c836-affb2854f0fa"
+		name: "mixamorig:Spine2"
+		position: {
+			__uuid: "34a53d7d-5366-5a90-d9c3-b7626962ef2c"
+			y: 9.100000381469727
+			z: -1.373399972915649
+		}
+		rotation: {
+			__uuid: "982c3513-d092-ca78-e9ba-8343babd56a9"
+			w: 1
+		}
+		scale: {
+			__uuid: "ee4cd003-8f61-35bd-d3c1-17a879e1eaa3"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"714384d6-6d70-b8b0-1fff-c0b52285547e"
+			"89015805-a7e5-0e12-f3e2-0c1ca5731334"
+			"0407f016-ea2b-80e7-3b42-aac00536dc02"
+		]
+	}
+	{
+		__uuid: "ed9bf4c3-e33d-ea99-a146-04f5a6c90ca7"
+		name: "mixamorig:Spine1"
+		position: {
+			__uuid: "33e922fd-28ac-6daf-3b26-8d4beb93e57c"
+			y: 10.08349990844727
+			z: -1.000800013542175
+		}
+		rotation: {
+			__uuid: "80a2e75e-3f1d-b586-d190-21393a79fd34"
+			w: 1
+		}
+		scale: {
+			__uuid: "06862b86-ea3c-1676-ea5f-4f8c7d9b3301"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"a6b91433-c55f-9e8b-c836-affb2854f0fa"
+		]
+	}
+	{
+		__uuid: "5a795569-4394-bca5-082f-4a97d3b663ea"
+		name: "mixamorig:Spine"
+		position: {
+			__uuid: "2e4a2c22-41be-539c-7afc-040c460b242c"
+			y: 10.18159961700439
+			z: 0.1315000057220459
+		}
+		rotation: {
+			__uuid: "70639307-b719-fe01-f273-3133d99854d8"
+			w: 1
+		}
+		scale: {
+			__uuid: "3e25835a-ab1d-dedf-01d0-3244ca403954"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"ed9bf4c3-e33d-ea99-a146-04f5a6c90ca7"
+		]
+	}
+	{
+		__uuid: "34f938ca-e9e1-6899-3bb8-1dc12208c912"
+		name: "mixamorig:LeftToe_End"
+		position: {
+			__uuid: "f6e5840f-6354-6b1c-2028-4badf26ec766"
+			y: -0.000699999975040555
+			z: 9.27810001373291
+		}
+		rotation: {
+			__uuid: "9d67e26a-5779-3621-ad17-120c1c56593b"
+			w: 1
+		}
+		scale: {
+			__uuid: "925d39df-6520-d25c-34e8-6a263845d796"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "760b44e4-705f-26f4-4ef0-088f536b9ad0"
+		name: "mixamorig:LeftToeBase"
+		position: {
+			__uuid: "2ac3731b-a5df-e1cf-c7a1-fa45f5f70c47"
+			y: -8.728699684143066
+			z: 10.71059989929199
+		}
+		rotation: {
+			__uuid: "af1c33f8-0281-a3dc-2b16-69610d265a1b"
+			w: 1
+		}
+		scale: {
+			__uuid: "9d32030e-477c-5ef3-60ee-9b093fb51b33"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"34f938ca-e9e1-6899-3bb8-1dc12208c912"
+		]
+	}
+	{
+		__uuid: "2970b6a5-af23-a151-0d4a-2d6e5eb50c9d"
+		name: "mixamorig:LeftFoot"
+		position: {
+			__uuid: "c4f51bf9-e1df-21b9-1cda-92a8d489e968"
+			y: -44.42789840698242
+			z: -2.982199907302856
+		}
+		rotation: {
+			__uuid: "4786a604-6b7f-fb12-1ea3-6ae8c6855cd4"
+			w: 1
+		}
+		scale: {
+			__uuid: "c315e4fc-c9d2-9fc1-62ca-d0304ae68f87"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"760b44e4-705f-26f4-4ef0-088f536b9ad0"
+		]
+	}
+	{
+		__uuid: "27c95b9d-7fce-c164-6a6a-dc88258af183"
+		name: "mixamorig:LeftLeg"
+		position: {
+			__uuid: "758baff9-0ee0-7a6d-9e36-d5388b414b82"
+			y: -44.37049865722656
+			z: 0.2845999896526337
+		}
+		rotation: {
+			__uuid: "ef334b58-de5f-7ec2-b245-4a2d46398cba"
+			w: 1
+		}
+		scale: {
+			__uuid: "2fad29af-40c7-f03a-4ca1-02cf1ce13e78"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"2970b6a5-af23-a151-0d4a-2d6e5eb50c9d"
+		]
+	}
+	{
+		__uuid: "7f5d534d-8abc-d804-ae3c-a04db317d802"
+		name: "mixamorig:LeftUpLeg"
+		position: {
+			__uuid: "1f3ca77d-58cb-bc9c-afde-24e3d646dff6"
+			x: 8.207799911499023
+			y: -6.751699924468994
+			z: -1.599599957466125
+		}
+		rotation: {
+			__uuid: "7860cf62-666d-d35c-f46a-70921e62dbae"
+			w: 1
+		}
+		scale: {
+			__uuid: "f8117e62-ad1d-a0eb-aba9-7f19f8a213e8"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"27c95b9d-7fce-c164-6a6a-dc88258af183"
+		]
+	}
+	{
+		__uuid: "5e1106a3-b083-d2c7-ad3a-47417eed92c3"
+		name: "mixamorig:RightToe_End"
+		position: {
+			__uuid: "84584e09-b88d-6e84-3adb-5251a9384e22"
+			y: -0.000699999975040555
+			z: 9.27810001373291
+		}
+		rotation: {
+			__uuid: "343c4fbf-40ae-6cae-4599-47767252452f"
+			w: 1
+		}
+		scale: {
+			__uuid: "4855e457-d18f-dfdf-2332-b6a012883445"
+			x: 1
+			y: 1
+			z: 1
+		}
+	}
+	{
+		__uuid: "ffd5fd8c-907f-b100-d70b-289093af7ac5"
+		name: "mixamorig:RightToeBase"
+		position: {
+			__uuid: "9930f3f2-27b0-5b5e-ee45-749bc01a3f73"
+			y: -8.728699684143066
+			z: 10.71059989929199
+		}
+		rotation: {
+			__uuid: "6a0d601c-a61d-3d59-6cdf-dfa42b4c678c"
+			w: 1
+		}
+		scale: {
+			__uuid: "b8e59e05-fd47-2872-4377-e541554d85f5"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"5e1106a3-b083-d2c7-ad3a-47417eed92c3"
+		]
+	}
+	{
+		__uuid: "eea7c14a-94ec-b907-7bac-a4e706530e70"
+		name: "mixamorig:RightFoot"
+		position: {
+			__uuid: "e66df21f-9bfe-3b2b-ba30-6e2ed420e25a"
+			y: -44.42770004272461
+			z: -2.983799934387207
+		}
+		rotation: {
+			__uuid: "121e7e46-eb2e-1e84-445a-449dac7f3e8a"
+			w: 1
+		}
+		scale: {
+			__uuid: "4bc46b9d-26ce-1c46-0621-0a530fccefde"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"ffd5fd8c-907f-b100-d70b-289093af7ac5"
+		]
+	}
+	{
+		__uuid: "b564bc7c-2440-8caa-e933-0aa48bfa894a"
+		name: "mixamorig:RightLeg"
+		position: {
+			__uuid: "76777fa4-c010-54d0-af62-01883a05a1cd"
+			y: -44.37049865722656
+			z: 0.2861999869346619
+		}
+		rotation: {
+			__uuid: "84826a4b-a60a-97c2-710d-7883b9377262"
+			w: 1
+		}
+		scale: {
+			__uuid: "13cd0aae-4125-ec97-cff4-8e1b251d5234"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"eea7c14a-94ec-b907-7bac-a4e706530e70"
+		]
+	}
+	{
+		__uuid: "1330b623-4d3d-2e7c-583c-32b2928601ff"
+		name: "mixamorig:RightUpLeg"
+		position: {
+			__uuid: "91f5ca19-957b-9eed-fd37-c462dd12e354"
+			x: -8.207799911499023
+			y: -6.751699924468994
+			z: -1.599599957466125
+		}
+		rotation: {
+			__uuid: "c7ddbf2e-e574-b3b3-069f-021e45d94aa1"
+			w: 1
+		}
+		scale: {
+			__uuid: "f0cb21bd-f232-6bcc-5f80-b58ee8aed696"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"b564bc7c-2440-8caa-e933-0aa48bfa894a"
+		]
+	}
+	{
+		__uuid: "655b3b6d-e307-c6be-9e56-d77ff8c4440d"
+		name: "mixamorig:Hips"
+		position: {
+			__uuid: "8a1b9ee6-42b4-ebd2-8d38-4390fa4e0032"
+			y: 103.9915008544922
+		}
+		rotation: {
+			__uuid: "d2e46272-bf35-9fa2-f5c6-1a47059623e5"
+			w: 1
+		}
+		scale: {
+			__uuid: "091fae0f-9ab3-76cc-ba44-0989f3a0cee8"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"5a795569-4394-bca5-082f-4a97d3b663ea"
+			"7f5d534d-8abc-d804-ae3c-a04db317d802"
+			"1330b623-4d3d-2e7c-583c-32b2928601ff"
+		]
+	}
+	{
+		__uuid: "9ef35845-b674-47f0-3206-87966223915c"
+		name: "RootNode"
+		position: {
+			__uuid: "99e9cde6-6d2e-4499-e1c9-a9bc9b701d71"
+		}
+		rotation: {
+			__uuid: "7be86207-4210-3560-b3d9-fa0422596330"
+			w: 1
+		}
+		scale: {
+			__uuid: "f99fdb62-4e97-b951-7f0d-6d8b0f5e23d4"
+			x: 1
+			y: 1
+			z: 1
+		}
+		children: [
+			"655b3b6d-e307-c6be-9e56-d77ff8c4440d"
+		]
+	}
+]
+scenes: [
+	{
+		__uuid: "ec3679a2-e1b6-e562-1665-bd4891eb48f9"
+		name: "walking"
+		root_nodes: [
+			"9ef35845-b674-47f0-3206-87966223915c"
+		]
+	}
+]
+animations: [
+	{
+		__uuid: "81df9ffa-b103-7334-426f-cd5a51e313b9"
+		name: "mixamo.com"
+		duration: 31
+		ticks_per_second: 30
+		node_animations: [
+			{
+				__uuid: "9721a4b5-3034-91ea-aa81-7515eac41b1b"
+				name: "mixamorig:Head"
+				node: "bf60c6fc-a41d-dcee-51db-861634727be1"
+				position_keys: "0de3ae08-9801-2a7a-e62e-e81b995f77b1"
+				rotation_keys: "61582960-a86b-5185-8c55-0c36c36efe0c"
+				scaling_keys: "035ad5ff-14fe-0af6-6088-3de04f4c38ef"
+			}
+			{
+				__uuid: "e2c58b1a-2eb4-c267-d8c9-f34a5d1c5db4"
+				name: "mixamorig:Hips"
+				node: "655b3b6d-e307-c6be-9e56-d77ff8c4440d"
+				position_keys: "a05df076-9bd4-3c15-9ccd-b4186495cb2e"
+				rotation_keys: "cbacd06d-cb36-f049-bebc-aa5161c236f7"
+				scaling_keys: "93feb88b-26c9-5fd5-416f-384245547e23"
+			}
+			{
+				__uuid: "016466cf-0028-b785-db9d-3fd85e18b50f"
+				name: "mixamorig:LeftArm"
+				node: "4c83e2a5-1722-a8e2-6b78-ecf9aa6efe38"
+				position_keys: "db04b067-3c98-c5e4-bd7b-208c95fc204b"
+				rotation_keys: "15a41623-ffae-89bb-7187-5d6c0af71485"
+				scaling_keys: "c3e0f9fa-5de3-4dba-ed99-415de3c3e9d2"
+			}
+			{
+				__uuid: "6e1cc7ee-f5a6-b121-65a2-4c6eea014c95"
+				name: "mixamorig:LeftFoot"
+				node: "2970b6a5-af23-a151-0d4a-2d6e5eb50c9d"
+				position_keys: "0916c428-42ab-316a-f2d5-e0149f35fda7"
+				rotation_keys: "7439a3e1-5fec-a598-f33c-a000b832f1f3"
+				scaling_keys: "9716241d-799a-3b9e-c91e-f4653d023827"
+			}
+			{
+				__uuid: "46b161ff-4ab1-38bd-1427-cc419f3ffd8a"
+				name: "mixamorig:LeftForeArm"
+				node: "5e867ee5-78dd-2e4d-8d4b-bae99cdca7e1"
+				position_keys: "82e38403-1de9-0bde-580c-daa618365dbc"
+				rotation_keys: "a12a9216-d0d2-417c-9c3b-9cc2a1c7fe37"
+				scaling_keys: "263f7424-e0ca-d27c-8cac-e42e234ae178"
+			}
+			{
+				__uuid: "da2674dd-288e-386f-ea8a-4e7a851cd57c"
+				name: "mixamorig:LeftHand"
+				node: "d266000a-21a1-598a-d474-5bef8a8ab35d"
+				position_keys: "78c34aa2-3488-bf7e-21f2-a3106163a299"
+				rotation_keys: "5676820d-ad05-d8cb-a5ea-56b8b0e8f726"
+				scaling_keys: "d6362053-0cb9-c838-d7e2-db94bee48c50"
+			}
+			{
+				__uuid: "aec75935-b299-b6be-416d-1f2b26bd5acc"
+				name: "mixamorig:LeftHandIndex1"
+				node: "13ad7322-b575-3681-3ac7-ff7c5de47aa1"
+				position_keys: "5be351fc-38ae-aef1-a173-8aeba22d9697"
+				rotation_keys: "035861cd-385e-d64a-d0e2-5c0395eb0428"
+				scaling_keys: "214b0163-95f5-389d-b336-dc5a116995d4"
+			}
+			{
+				__uuid: "1f0fc974-f49a-7e48-6f81-0e766ed02751"
+				name: "mixamorig:LeftHandIndex2"
+				node: "7b21686a-df0c-cc09-27a0-0f93b4455335"
+				position_keys: "185153a8-d6bc-e3b6-df6d-8db39b256589"
+				rotation_keys: "32720919-9d95-c8d5-e0c8-4236c9d7e0b6"
+				scaling_keys: "880452e8-96a8-1376-e6a7-ef2cfe63daaa"
+			}
+			{
+				__uuid: "e04f015a-3a5c-8ebd-8666-cd130e7fdc8a"
+				name: "mixamorig:LeftHandIndex3"
+				node: "4bc46387-31b9-ffb6-53d7-fd5e228741a6"
+				position_keys: "50a66ee4-ec30-3e8a-484b-5ea589af2d74"
+				rotation_keys: "3e7c356f-23b3-e30d-7496-34db8e3eca58"
+				scaling_keys: "86fc57d9-1149-a5fe-8aeb-464e17dba35e"
+			}
+			{
+				__uuid: "685c1bd7-145c-84e4-89cb-f800e1ae92ef"
+				name: "mixamorig:LeftHandMiddle1"
+				node: "232beff0-cb5b-8b2d-8fb5-40cc109fa9ff"
+				position_keys: "030c9249-7a4b-1f96-6145-84048de6c64f"
+				rotation_keys: "1bcc74e3-002a-9d05-8644-b52779acb365"
+				scaling_keys: "2ce7b2fc-a31b-cdfd-17dd-287a19ddef31"
+			}
+			{
+				__uuid: "b96f3e9a-2118-5e36-4d36-3510fc2fac0f"
+				name: "mixamorig:LeftHandMiddle2"
+				node: "639d7309-a154-7fb5-0a3a-74960a28672f"
+				position_keys: "1759cdd6-793e-c5fd-95f9-9d3a1109d863"
+				rotation_keys: "b0f5be62-e7b8-fd87-b6de-437ffe6b654f"
+				scaling_keys: "7ae1ee35-9eaf-110c-ff5c-f896f6a3c43d"
+			}
+			{
+				__uuid: "8a68f149-b38a-072d-505a-35af9d3e54af"
+				name: "mixamorig:LeftHandMiddle3"
+				node: "1f77409b-3ab7-7f98-7521-06940aa41890"
+				position_keys: "4b3fab9b-d213-b23b-8810-5d27f68be4d8"
+				rotation_keys: "bcd7c1cb-8038-e76c-dd42-3af05d31aa05"
+				scaling_keys: "55dd99c4-d383-1c7b-70b8-d55ffac8e3fa"
+			}
+			{
+				__uuid: "91911f80-3ba8-0506-2d44-bd851cd1ac5b"
+				name: "mixamorig:LeftHandPinky1"
+				node: "bd0211e4-2d58-121c-bc85-1d8afeaad1ba"
+				position_keys: "35ff412a-9d6b-2a9b-b549-b110486c0dc3"
+				rotation_keys: "8b683c5b-049e-0a4d-e318-d168e78578a9"
+				scaling_keys: "31937c25-95cb-5294-44c2-916c7e7ce3e9"
+			}
+			{
+				__uuid: "34464821-03fb-061f-0ef3-1ae332f46629"
+				name: "mixamorig:LeftHandPinky2"
+				node: "75cee372-d898-740e-44bc-fc4ee9d5493c"
+				position_keys: "30d99370-3235-7ba4-47f8-487f17885a39"
+				rotation_keys: "9757c290-21b8-9904-63dd-833289030b7a"
+				scaling_keys: "31342638-16b3-7a4c-bd64-f33a82778e0b"
+			}
+			{
+				__uuid: "2872f3a1-8b2b-a2c8-98d2-50258858ee93"
+				name: "mixamorig:LeftHandPinky3"
+				node: "cf309e46-34f3-7fd2-8a0e-68630c069fd6"
+				position_keys: "492d821c-a958-c27a-0fc3-d5a678f419be"
+				rotation_keys: "26bdd307-24b7-ed26-5ee1-a34d508e4a68"
+				scaling_keys: "2320303a-5a51-2627-1b5d-9873aa14f234"
+			}
+			{
+				__uuid: "81b4ebf5-3dc2-a7ce-b62b-2845ebcfce23"
+				name: "mixamorig:LeftHandRing1"
+				node: "9b0036b4-2352-b5e5-016c-81042a0ec6a9"
+				position_keys: "b0b152b8-1a15-b497-ab8f-f88bda91bb3b"
+				rotation_keys: "58f69ce8-0d18-a550-8565-38d40d07c5e6"
+				scaling_keys: "9a350655-6bd2-9375-d401-4293174d8893"
+			}
+			{
+				__uuid: "7d0ef23d-6e7f-2366-e9b1-0670dc0ba837"
+				name: "mixamorig:LeftHandRing2"
+				node: "61f3f790-cf9b-1c21-8f83-89ff22d3d507"
+				position_keys: "95f9bba3-99e4-300e-c92b-8c7ff585d071"
+				rotation_keys: "f588d698-930f-1bd7-b077-d2f0d1582def"
+				scaling_keys: "26c66bf0-a020-5850-003f-5c876920744d"
+			}
+			{
+				__uuid: "6fe8f869-7767-3f1d-a190-9085c7ddcef8"
+				name: "mixamorig:LeftHandRing3"
+				node: "0587e8f2-0613-2f1d-4ddf-f31921206dea"
+				position_keys: "e5e1dfaf-7965-e8c8-5b09-e2a28aba2166"
+				rotation_keys: "d8742c63-ec74-b0ee-b335-65c7b18480e7"
+				scaling_keys: "833cfebf-7154-5a65-8820-2d0f8fa92010"
+			}
+			{
+				__uuid: "35abe3b1-f524-b42f-c0c2-f1dfe4e8ff66"
+				name: "mixamorig:LeftHandThumb1"
+				node: "c4b06791-4b04-9945-b54c-a3ea19a1a941"
+				position_keys: "65b005ad-8e6a-c05a-b714-a19e1aa19a59"
+				rotation_keys: "d017725e-f0e8-8b1b-9fa2-adffb3e82c8e"
+				scaling_keys: "5ea9ad87-1c0d-fcfc-f599-a8db572be6cb"
+			}
+			{
+				__uuid: "49f76a48-d772-655d-9285-163991381d94"
+				name: "mixamorig:LeftHandThumb2"
+				node: "60777aeb-ce19-123c-dc71-7c651a8cc95e"
+				position_keys: "b31deb2f-7d22-0b41-8001-d542cb4a6f83"
+				rotation_keys: "3cf402bb-ec2f-b644-ff20-a1eae1bf86cd"
+				scaling_keys: "ada9de1e-b047-69ae-94bf-43021669641d"
+			}
+			{
+				__uuid: "70908774-1575-acae-80fe-7265768322e6"
+				name: "mixamorig:LeftHandThumb3"
+				node: "131b83e3-c89a-fabf-cbad-491473be42f7"
+				position_keys: "3c4e2cf2-348b-c86c-bfaf-4b96eb239b46"
+				rotation_keys: "96b35df6-1752-c9ab-dbf4-435d69142c06"
+				scaling_keys: "e08f6b0b-f8aa-9092-374c-dc4f9d32d906"
+			}
+			{
+				__uuid: "5187f8a6-69d5-3b64-9bcc-0bce25322b16"
+				name: "mixamorig:LeftLeg"
+				node: "27c95b9d-7fce-c164-6a6a-dc88258af183"
+				position_keys: "aed8d23c-d86a-4e24-d61b-ab8f28dd7457"
+				rotation_keys: "66b22aa8-5c7c-df66-fd88-d30ce6c33846"
+				scaling_keys: "3abfab56-a3ad-b462-0740-a69fe305cebd"
+			}
+			{
+				__uuid: "f5b8b8e1-a162-9a22-7d60-4d0635a77da4"
+				name: "mixamorig:LeftShoulder"
+				node: "89015805-a7e5-0e12-f3e2-0c1ca5731334"
+				position_keys: "3a1a5e33-bf98-5afc-88bd-4264a60852c3"
+				rotation_keys: "b132d2f7-fe70-6502-15aa-f29842ff8277"
+				scaling_keys: "ef9d45e2-7fd5-fcda-d01a-81164686b0d0"
+			}
+			{
+				__uuid: "6fc4bda2-7b7d-8dfe-b498-25501806d81b"
+				name: "mixamorig:LeftToeBase"
+				node: "760b44e4-705f-26f4-4ef0-088f536b9ad0"
+				position_keys: "d800d516-2bef-b09c-af35-fd02b4912ba1"
+				rotation_keys: "4d0158ea-bcc4-2c75-cca1-ff53c82a3d7e"
+				scaling_keys: "c6527f37-31a2-57f2-9229-29d1fb2263fa"
+			}
+			{
+				__uuid: "be6bd288-f8da-c8d8-262a-0cc43fd1bcc2"
+				name: "mixamorig:LeftUpLeg"
+				node: "7f5d534d-8abc-d804-ae3c-a04db317d802"
+				position_keys: "c0cbd5b8-4986-4a1a-b0b3-2e3cc296b89b"
+				rotation_keys: "90ffb6dc-187f-fc08-5cde-4cbb25025d82"
+				scaling_keys: "2547ba22-af7d-1da9-d531-0219bf05bf73"
+			}
+			{
+				__uuid: "4b4bdf6b-9f6f-9697-63ae-cac2d92d1a3a"
+				name: "mixamorig:Neck"
+				node: "714384d6-6d70-b8b0-1fff-c0b52285547e"
+				position_keys: "7499439e-4507-8c5d-2c13-4c246248f5ce"
+				rotation_keys: "97c8a011-b4bd-3e9c-4e3e-81de9b0e4fe5"
+				scaling_keys: "b0f35f36-b79a-0445-1afd-8360371f1643"
+			}
+			{
+				__uuid: "9e04692f-f7d4-096e-2fab-f1da2f8b7278"
+				name: "mixamorig:RightArm"
+				node: "f7c2484f-33c6-a9a9-67fc-367cc8edffde"
+				position_keys: "c709f6c3-a3b2-1aee-36c3-bbf44b8d3411"
+				rotation_keys: "a70f4eeb-7ff4-2151-3063-36d6021585e8"
+				scaling_keys: "ddc265b4-00f7-12b9-3201-e5333e35696e"
+			}
+			{
+				__uuid: "ca5c95cc-c431-9581-681f-e159cb9b447a"
+				name: "mixamorig:RightFoot"
+				node: "eea7c14a-94ec-b907-7bac-a4e706530e70"
+				position_keys: "2cd3c9ac-79ac-f292-68d0-e2dedc2917dd"
+				rotation_keys: "80cfe2c3-453a-8ba7-23bc-1ed632e5573c"
+				scaling_keys: "418107c6-1a85-5c28-3c9e-5c931edf2250"
+			}
+			{
+				__uuid: "d5a474df-8182-6cd6-c4ee-e2ecd8e85381"
+				name: "mixamorig:RightForeArm"
+				node: "bc1bbd2a-5257-baf4-8433-0f1bd23518c6"
+				position_keys: "40971795-9711-02d3-369d-2a2c689e08a2"
+				rotation_keys: "8480e297-a82f-27c9-d758-c0766714c82f"
+				scaling_keys: "fdef16e6-35c6-a4df-a1b9-aa602de41ee8"
+			}
+			{
+				__uuid: "6d775eb0-65f6-caff-ba98-6aee973396fa"
+				name: "mixamorig:RightHand"
+				node: "3e6bb225-91b2-1b84-857f-856e5aa75a60"
+				position_keys: "23b23c59-c5d8-45e3-494d-45cdd39cd700"
+				rotation_keys: "424a841d-d3da-951c-d15f-f7300ba5c739"
+				scaling_keys: "70ca961b-20ba-ec57-6566-ed2a17e50bf5"
+			}
+			{
+				__uuid: "ace318a5-4562-e441-8e94-a232eaf86e78"
+				name: "mixamorig:RightHandIndex1"
+				node: "0a7a9202-31f0-fb0a-7ab7-2ef1d32db34d"
+				position_keys: "a4627b87-d12d-7feb-11e9-8d92b5982779"
+				rotation_keys: "ddd993bc-ba4f-f829-9216-c075cbc3a1ad"
+				scaling_keys: "b43ddf34-33ad-5719-c896-2cf2e37719d9"
+			}
+			{
+				__uuid: "320d3a56-a686-9663-af44-94e47e96bf12"
+				name: "mixamorig:RightHandIndex2"
+				node: "741638fa-f2b7-915d-55a7-0e4d966902ff"
+				position_keys: "cecdf52b-72ee-d88b-4a04-b034e4261045"
+				rotation_keys: "50f69235-e62a-4575-e3ac-44b11842ac96"
+				scaling_keys: "935fa350-5664-604c-2d8a-b62c0f4a6a8e"
+			}
+			{
+				__uuid: "83d7e7ac-9b76-3d6a-30ff-7438b7f3a0c4"
+				name: "mixamorig:RightHandIndex3"
+				node: "9f880268-2039-2f35-8b71-83e7a3657210"
+				position_keys: "d685d160-465e-e528-d017-69f47b28f33c"
+				rotation_keys: "1e3ed67d-f8c3-8a09-468a-47cc8aa0d7f1"
+				scaling_keys: "bca1536f-e014-f064-afef-6d957dcb69bc"
+			}
+			{
+				__uuid: "2633e3ef-e5fe-8463-23fb-5aa32e440d89"
+				name: "mixamorig:RightHandMiddle1"
+				node: "56dacff9-bd5e-e7fc-a1af-4bee97bd6701"
+				position_keys: "0e1b0f23-dc48-f86f-0560-e2533de05b2c"
+				rotation_keys: "0080d9b8-d968-143f-6c85-e02e26e2d663"
+				scaling_keys: "a101f221-6a2c-1a8e-8057-2948a68531c1"
+			}
+			{
+				__uuid: "2644ee36-25b6-0cde-2903-824d115c857d"
+				name: "mixamorig:RightHandMiddle2"
+				node: "0334554a-fda1-71e0-a1b5-0e3221bcefd4"
+				position_keys: "7260bdd9-ae66-3708-20e7-dabddac760d9"
+				rotation_keys: "aa752045-f26e-87dc-eb5a-70d4d99f98d2"
+				scaling_keys: "ac5c8532-1477-5b2d-3dea-3478db44afbc"
+			}
+			{
+				__uuid: "b3224178-77c3-4cbc-8941-69f07dddb278"
+				name: "mixamorig:RightHandMiddle3"
+				node: "0231c279-fe02-22af-82f4-99f1548efd9c"
+				position_keys: "e7a9175f-54ae-3df6-0902-be8a868fbece"
+				rotation_keys: "39fd9044-54ff-24b5-38fc-1747b803c150"
+				scaling_keys: "af8c11fc-53d7-9974-c890-5abfb003dcd1"
+			}
+			{
+				__uuid: "e5c95551-2075-a960-cd66-fd25bd2a028a"
+				name: "mixamorig:RightHandPinky1"
+				node: "b1de2f9c-63e4-4dd5-9401-5759055631cd"
+				position_keys: "60820fc3-63b7-c6d0-b261-1a9a2ecb254c"
+				rotation_keys: "8fb13a1d-08ec-e28e-ae9b-181526a526fa"
+				scaling_keys: "2fcd2759-010d-52ac-90b6-e2d129eb2322"
+			}
+			{
+				__uuid: "e8581bcf-b922-a072-96c2-9618d5636cb8"
+				name: "mixamorig:RightHandPinky2"
+				node: "a02c71c4-824a-2ea8-1fd1-384c06f9abde"
+				position_keys: "8a7ac4ee-2f35-8c56-e79c-69cb9fb49d86"
+				rotation_keys: "5fe3bb5d-18b7-2c04-80c8-78f3c711ef1f"
+				scaling_keys: "396e1f96-399f-2169-92fa-cfc86add38b4"
+			}
+			{
+				__uuid: "49ba58f7-8d4f-199a-1a7f-85e927604b54"
+				name: "mixamorig:RightHandPinky3"
+				node: "02c0ab39-cd8d-22f9-da8c-643be5546d96"
+				position_keys: "6d40c661-cf30-2618-ef46-bd4848c266b0"
+				rotation_keys: "16cb2a32-c135-af02-c55a-1b728179dff9"
+				scaling_keys: "555ddd53-bfe4-1fca-a6a9-2561015afbe3"
+			}
+			{
+				__uuid: "4083bbe5-ad2f-cdfa-2cbc-e9571868a8c3"
+				name: "mixamorig:RightHandRing1"
+				node: "a270bfc3-57d6-e675-c22b-2755a02aa040"
+				position_keys: "2b349663-2ddb-0a13-8616-c3cdba59562e"
+				rotation_keys: "5f24fdfc-ad1f-cb31-5c0c-feb993044a4a"
+				scaling_keys: "0a08c3e3-581a-b332-7e58-15451592a436"
+			}
+			{
+				__uuid: "b57c6a6e-7d56-24b1-ca06-877581815ba0"
+				name: "mixamorig:RightHandRing2"
+				node: "7889f300-a7bf-d22d-a0b1-88e295501830"
+				position_keys: "3f7e5a49-c0da-bca5-b4f0-49a8733a381d"
+				rotation_keys: "f893c339-d429-a313-4f50-fd9ac8e11cb6"
+				scaling_keys: "258e67e5-ce9d-41b8-8698-2dbf7468c926"
+			}
+			{
+				__uuid: "30492644-7000-e9ba-a0ac-91c4ba7d7ae7"
+				name: "mixamorig:RightHandRing3"
+				node: "f971375c-6c47-715f-df1f-f3fe61e21042"
+				position_keys: "057509b4-7b21-9e40-8ea5-e9fa861214fa"
+				rotation_keys: "b5286281-de6a-49a4-a8e0-e1eafcb1f158"
+				scaling_keys: "c09524cb-dfc0-13b7-249f-81929926d482"
+			}
+			{
+				__uuid: "394ea680-30a7-f491-f22b-4f39e005da59"
+				name: "mixamorig:RightHandThumb1"
+				node: "bb2b1ce0-ab84-3742-b9bb-abb6df41b4a2"
+				position_keys: "a68e545b-51b2-1014-5f1d-fbf99ae92091"
+				rotation_keys: "f2641704-305d-7f9a-e76c-7b2c8cc7d57f"
+				scaling_keys: "423f8877-61e8-a761-eed7-22b019b3ef9c"
+			}
+			{
+				__uuid: "31155337-f7c1-45cb-07f4-f7bf492435fb"
+				name: "mixamorig:RightHandThumb2"
+				node: "ec1fda8b-068d-e427-3307-4f3b13103e19"
+				position_keys: "30d9d3d8-ec3c-9e84-7e72-12e837e1ea39"
+				rotation_keys: "5db3220d-33db-68cd-0c28-ba18eb3b5fec"
+				scaling_keys: "d0240350-abe4-dd13-e9d0-6b8ac8cb8eb6"
+			}
+			{
+				__uuid: "fb6c223a-b857-901f-e352-5eb5828b6be5"
+				name: "mixamorig:RightHandThumb3"
+				node: "70072985-b6d8-65f9-a99c-31785c95b715"
+				position_keys: "a898c407-367c-3c8a-24a7-c8b26c6b161b"
+				rotation_keys: "9a4a8156-2099-9ad9-e9c9-515751f44a02"
+				scaling_keys: "264df7dc-9c92-889e-73fe-20995327aa4f"
+			}
+			{
+				__uuid: "42ba692d-2642-b523-fee1-79051b04207f"
+				name: "mixamorig:RightLeg"
+				node: "b564bc7c-2440-8caa-e933-0aa48bfa894a"
+				position_keys: "5b036af9-20fe-cd3d-3dd5-1c24c7c3509b"
+				rotation_keys: "638eb995-d149-1555-ac22-47bcacfd73a4"
+				scaling_keys: "74edc6d6-0af0-db49-9681-c607b15f0cf2"
+			}
+			{
+				__uuid: "c843d180-c2d4-32b4-8bca-5fc343123bc8"
+				name: "mixamorig:RightShoulder"
+				node: "0407f016-ea2b-80e7-3b42-aac00536dc02"
+				position_keys: "51f61368-0c0b-36d0-be28-aaac9de53b2b"
+				rotation_keys: "3a6ff883-7d4a-9ac2-3243-d243c9d89831"
+				scaling_keys: "331000c4-49a2-254d-1bba-03e2b8bef7de"
+			}
+			{
+				__uuid: "f4f5da04-95e8-f2d3-9521-7e0ec4c70c98"
+				name: "mixamorig:RightToeBase"
+				node: "ffd5fd8c-907f-b100-d70b-289093af7ac5"
+				position_keys: "7de6d7db-53ab-fc3d-ec96-95ae111f4276"
+				rotation_keys: "f8534e90-3e0c-7878-c720-8723547635e0"
+				scaling_keys: "572dc0c5-41fe-c42a-d4db-e0819c373115"
+			}
+			{
+				__uuid: "cbf5222f-2030-8bd3-a5d1-e3c30c538cad"
+				name: "mixamorig:RightUpLeg"
+				node: "1330b623-4d3d-2e7c-583c-32b2928601ff"
+				position_keys: "053af427-8438-6968-6bb0-f189f67de902"
+				rotation_keys: "492a6095-2dec-dd7c-0e2c-bc11f85f8bd6"
+				scaling_keys: "285f942d-ee77-5fa6-0efa-1c6d862f6300"
+			}
+			{
+				__uuid: "120e73a0-a569-0814-dacc-e2394bfdcda8"
+				name: "mixamorig:Spine"
+				node: "5a795569-4394-bca5-082f-4a97d3b663ea"
+				position_keys: "c30409bf-faef-f7dd-fa96-f8760a42b820"
+				rotation_keys: "f72cc864-17a4-af0e-bbe7-d5bdbf31b498"
+				scaling_keys: "52f52ac0-b502-7826-2485-d88b7aefcecf"
+			}
+			{
+				__uuid: "a4214640-6aae-30e9-3e15-491acf1516cf"
+				name: "mixamorig:Spine1"
+				node: "ed9bf4c3-e33d-ea99-a146-04f5a6c90ca7"
+				position_keys: "a43b537f-348a-a27a-f851-5e7219156c58"
+				rotation_keys: "326c70c4-c6d3-8a13-1805-bd279a059b1e"
+				scaling_keys: "adfb9eb0-d31b-57a6-bf92-4902a4a00c81"
+			}
+			{
+				__uuid: "3add7436-2149-6ae4-9bb9-b4b64cd37beb"
+				name: "mixamorig:Spine2"
+				node: "a6b91433-c55f-9e8b-c836-affb2854f0fa"
+				position_keys: "6f134182-f6b8-627a-3586-969c9e47f054"
+				rotation_keys: "b6715066-d212-44b5-a062-db37bdf3a3f3"
+				scaling_keys: "8c24c774-7fc7-9c8d-3e97-919fbedf609d"
+			}
+		]
+	}
+]
+settings: {
+	__uuid: "1aaffcf6-e0a7-e508-bbac-c00535880230"
+	import_settings: {
+		__uuid: "8e8252fc-03c7-49f2-e34b-2114bf1451f3"
+		dcc_asset_image_cg: "11840b6b-ead4-8eb5-9491-a4f83772d7c8"
+		dcc_asset_material_cg: "91f3c339-7e52-a0af-c981-d85382fa28b6"
+		dcc_asset_mesh_cg: "10c53496-8434-cc98-c913-d893592b9c9b"
+		import_image_cg: "6fef6294-a924-29d4-ca95-4fa88f7cf3d3"
+		drop_image_cg: "80681e1c-aaf3-7354-3e0e-e5682c2b571e"
+	}
+	source_import_settings: {
+		__uuid: "ddeab855-5d08-3b03-3a51-a5f907e09040"
+		source_path: ""
+		rotation: {
+			__uuid: "dcee9f05-1fae-0616-9755-32eb7ef8d5dc"
+		}
+		scale: {
+			__uuid: "0289b41b-ccca-271b-0539-18796297ed7c"
+		}
+	}
+}
+preview_entity: {
+	__uuid: "496721d4-cf29-ffa8-cfa8-d30f80eb1ee5"
+}
+__asset_uuid: "2e1f2980-db3f-e534-0853-31fa7441bfd4"

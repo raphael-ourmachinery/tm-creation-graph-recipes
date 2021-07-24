@@ -1,0 +1,19 @@
+__type: "tm_animation_clip"
+__uuid: "59ebb977-c37a-083f-925a-6abced750425"
+name: ""
+animation: "86571c16-aaf9-336e-8594-dfb1aabb8343"
+animation__type: "tm_compressed_animation"
+locomotion_node_name: "mixamorig:Hips"
+triggers: [
+	{
+		__uuid: "2985b396-adbc-1ddf-70f7-abaa75fa8ec2"
+		name: "LeftFoot"
+		frame: 6.281200408935547
+	}
+	{
+		__uuid: "a1959cc4-b25d-9a34-f769-0997577fb0b8"
+		name: "RightFoot"
+		frame: 22.2938404083252
+	}
+]
+__asset_uuid: "beaead73-38d8-e672-18ed-ede89341ee54"

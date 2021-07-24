@@ -1,0 +1,8 @@
+__type: "tm_wav"
+__uuid: "5e666f82-8f52-b387-077c-6664a4728ac6"
+frequency: 48000
+num_channels: 1
+format: 2
+channel_mask: 4
+data: "e05a3e59f5ae356f"
+__asset_uuid: "548466d7-3875-8c30-ed7d-0cfe76b77dcc"

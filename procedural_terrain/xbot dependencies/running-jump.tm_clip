@@ -1,0 +1,8 @@
+__type: "tm_animation_clip"
+__uuid: "79ab3ee8-8d8a-df6a-8d0f-a4d7ed630493"
+name: ""
+animation: "15e7ed7e-b7a1-58f5-7a3f-85a3a19c15d6"
+animation__type: "tm_compressed_animation"
+loop: false
+locomotion_node_name: "mixamorig:Hips"
+__asset_uuid: "db771304-a270-3b33-658e-721ddf69ec2c"

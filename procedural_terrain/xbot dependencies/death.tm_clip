@@ -1,0 +1,8 @@
+__type: "tm_animation_clip"
+__uuid: "256dbdc2-43b5-aee6-c7a9-613b714f264e"
+name: ""
+animation: "78d51d58-f2cb-d4d6-9dfb-962a39e572b0"
+animation__type: "tm_compressed_animation"
+loop: false
+locomotion_node_name: ""
+__asset_uuid: "6b350b57-f3fc-06f8-77f1-e6052c10fa9a"

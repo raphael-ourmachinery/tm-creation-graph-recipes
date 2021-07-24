@@ -1,0 +1,90 @@
+__type: "tm_creation_graph"
+__uuid: "6fef6294-a924-29d4-ca95-4fa88f7cf3d3"
+graph: {
+	__uuid: "c73ec39d-19f9-dc46-6bf2-d3cadb4c658d"
+	nodes: [
+		{
+			__uuid: "045dc821-3887-35ca-8b97-a643a67c2a68"
+			type: "image_input_archive"
+			position_x: -277.7674560546875
+			position_y: 11.75
+		}
+		{
+			__uuid: "d968f9f3-9249-e320-046e-0ba1bff2afe1"
+			type: "image_output"
+			position_x: 196.2326049804688
+			position_y: -0.9166259765625
+		}
+		{
+			__uuid: "8a3f036d-b233-e7c7-f6be-319cce9c14c6"
+			type: "image_to_gpu_image"
+			position_x: -40.43414306640625
+			position_y: 13.0833740234375
+		}
+		{
+			__uuid: "1053c664-7911-960a-d542-48893e5d04cd"
+			type: "tm_input_node"
+			position_x: -488.8344421386719
+			position_y: 4.0833740234375
+		}
+	]
+	connections: [
+		{
+			__uuid: "efbce9da-ba7b-b491-2a49-70b7133fe764"
+			from_node: "045dc821-3887-35ca-8b97-a643a67c2a68"
+			to_node: "8a3f036d-b233-e7c7-f6be-319cce9c14c6"
+			from_connector_hash: "284126856b22844e"
+			to_connector_hash: "284126856b22844e"
+		}
+		{
+			__uuid: "61c789d0-a2e9-59f5-a89b-94ece17d38e1"
+			from_node: "8a3f036d-b233-e7c7-f6be-319cce9c14c6"
+			to_node: "d968f9f3-9249-e320-046e-0ba1bff2afe1"
+			from_connector_hash: "c05fedba357b4754"
+			to_connector_hash: "c05fedba357b4754"
+		}
+		{
+			__uuid: "e692ee0a-9535-775c-cb81-5ee5f57e3472"
+			from_node: "1053c664-7911-960a-d542-48893e5d04cd"
+			to_node: "045dc821-3887-35ca-8b97-a643a67c2a68"
+			from_connector_hash: "0a5d08d6299c4888"
+			to_connector_hash: "b10d67d723e27f0a"
+		}
+	]
+	comments: [
+		{
+			__uuid: "e141959b-cefc-4a4f-eba2-a2ccd20545cc"
+			text: "Default asset pipeline for imported images"
+			position_x: -271.20166015625
+			position_y: -68.1666259765625
+			font_scale: 2
+			color: {
+				__uuid: "cbb95068-0d0b-81b5-17b3-f1b6633f4b2e"
+			}
+		}
+	]
+	interface: {
+		__uuid: "8e5bd165-c983-44d0-d496-3fed585914d9"
+		inputs: [
+			{
+				__uuid: "8351f662-97f2-ad95-90c9-776ef064d38a"
+				display_name: "Image Filename"
+				id: "1"
+				type_hash: "c0e73f6b9d047b45"
+				value: {
+					__type: "tm_image_archive"
+					__uuid: "ce1818f7-8bba-ba84-2ada-e7e3228b3969"
+					filename: ""
+					description: {
+						__uuid: "09f7e91e-d6e0-3104-9fa7-2d9632ec0706"
+						debug_tag: "Default Image"
+					}
+				}
+				public: true
+				order: 1
+			}
+		]
+		last_id: 1
+	}
+}
+__asset_uuid: "d7effb8a-0272-bcbd-9c59-c82013827fc7"

@@ -1,0 +1,6 @@
+__type: "tm_physics_collision"
+__uuid: "c2b3df32-e113-f6ad-17f2-ae4e2ff0c34f"
+collides_with: [
+	"c2b3df32-e113-f6ad-17f2-ae4e2ff0c34f"
+]
+__asset_uuid: "e59ee121-b748-1254-f880-752bccfb0ff8"
