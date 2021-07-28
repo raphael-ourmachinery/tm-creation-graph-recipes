@@ -40,8 +40,8 @@ graph: {
 		{
 			__uuid: "afa56c96-be76-3e29-e0bc-30934d2ed3ea"
 			type: "image_output"
-			position_x: 1595.851440429688
-			position_y: -127.3675994873047
+			position_x: 1633.157470703125
+			position_y: -170.7782287597656
 		}
 		{
 			__uuid: "53345dd1-1f74-3443-b07a-bdf30d615189"
@@ -216,6 +216,12 @@ graph: {
 			type: "shader_constant"
 			position_x: 278.4093933105469
 			position_y: -192.5844573974609
+		}
+		{
+			__uuid: "abfc8f54-5214-bf8e-17ac-8f1283f3fb91"
+			type: "tm_output_node"
+			position_x: 1578.141479492188
+			position_y: -35.17800903320313
 		}
 	]
 	connections: [
@@ -533,6 +539,13 @@ graph: {
 			to_node: "f1fd2398-de15-6648-37ce-32f69ca1c4c5"
 			from_connector_hash: "1609e8f8d8051ecb"
 			to_connector_hash: "06776ddaf0290228"
+		}
+		{
+			__uuid: "86cc3c8a-3ae5-8f43-b03e-0585dc18d13f"
+			from_node: "7006ab28-1f3e-e620-2f7a-df221a8516ae"
+			to_node: "abfc8f54-5214-bf8e-17ac-8f1283f3fb91"
+			from_connector_hash: "71fa1d68aef49238"
+			to_connector_hash: "eb9f4c047cc226f2"
 		}
 	]
 	data: [
@@ -920,7 +933,17 @@ graph: {
 				order: 6
 			}
 		]
-		last_id: 6
+		outputs: [
+			{
+				__uuid: "cb002b5e-2241-112d-5f2c-c45fb41b65f1"
+				name: "terrain_texture"
+				display_name: "Terrain Texture"
+				id: "output__graph_6847233141220828336__7"
+				type_hash: "cfe7145deeba5bfd"
+				order: 1
+			}
+		]
+		last_id: 7
 		cached_node_result: [
 			{
 				__uuid: "fef8ab8b-2516-78d3-aa58-a0a84460b7fc"

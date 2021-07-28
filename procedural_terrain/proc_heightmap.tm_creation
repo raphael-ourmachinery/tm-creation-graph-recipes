@@ -121,6 +121,12 @@ graph: {
 			position_x: -855
 			position_y: -210
 		}
+		{
+			__uuid: "2de8c1c1-8bb2-7df3-35ff-1d2adba8f73d"
+			type: "tm_output_node"
+			position_x: 654.7642211914063
+			position_y: -98.18252563476563
+		}
 	]
 	connections: [
 		{
@@ -304,6 +310,13 @@ graph: {
 			to_node: "41b42cb1-1890-ed96-d701-d673e0c5b9fb"
 			from_connector_hash: "1609e8f8d8051ecb"
 			to_connector_hash: "06776ddaf0290228"
+		}
+		{
+			__uuid: "3bda0ab3-1f6d-8664-66d2-ca25f94d2e2b"
+			from_node: "c0da7169-6edb-6fd3-0954-f26c2f836c60"
+			to_node: "2de8c1c1-8bb2-7df3-35ff-1d2adba8f73d"
+			from_connector_hash: "71fa1d68aef49238"
+			to_connector_hash: "c41fddb66b543431"
 		}
 	]
 	data: [
@@ -561,7 +574,17 @@ graph: {
 				order: 6
 			}
 		]
-		last_id: 6
+		outputs: [
+			{
+				__uuid: "8b45884c-6e06-b0d3-478d-231237d5f2d3"
+				name: "heightmap"
+				display_name: "Heightmap"
+				id: "output__graph_8011099023231294589__7"
+				type_hash: "cfe7145deeba5bfd"
+				order: 1
+			}
+		]
+		last_id: 7
 		cached_node_result: [
 			{
 				__uuid: "3cc20096-ace0-91a1-f067-dd09fef569a7"
