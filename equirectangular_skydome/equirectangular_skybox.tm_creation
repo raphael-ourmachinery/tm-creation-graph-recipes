@@ -1,0 +1,366 @@
+__type: "tm_creation_graph"
+__uuid: "e73042df-b0e8-8163-0d49-40598f3eb859"
+graph: {
+	__uuid: "a0800672-c5fb-e1b9-8e5b-4044bc5c31cc"
+	nodes: [
+		{
+			__uuid: "228b12da-1f04-1d61-dc4f-7d2472e33c93"
+			type: "creation_graph_import"
+			position_x: 620.2806396484375
+			position_y: -232.2382202148438
+		}
+		{
+			__uuid: "d5916cb0-5dcf-6632-e8fd-9b239956ad64"
+			type: "shader_input_view_vector"
+			position_x: -473.4195556640625
+			position_y: 90.86465454101563
+		}
+		{
+			__uuid: "dc2c9726-5ab4-7fb8-59f4-837a89be3687"
+			type: "shader_deconstruct_float3"
+			position_x: -288.8368530273438
+			position_y: 88.55361938476563
+		}
+		{
+			__uuid: "cc2d844c-05a7-6d76-8883-912ae8909316"
+			type: "shader_atan2"
+			position_x: -77.12057495117188
+			position_y: 73.49697875976563
+			width: 168.9252319335938
+		}
+		{
+			__uuid: "3875edf3-edfa-57a4-2354-ba46c121fc82"
+			type: "shader_add"
+			position_x: 127.8814697265625
+			position_y: 63.34344482421875
+		}
+		{
+			__uuid: "d36339d1-9d80-6b43-58e8-b82219dc5610"
+			type: "shader_constant"
+			position_x: -90.87844848632813
+			position_y: -38.19195556640625
+		}
+		{
+			__uuid: "7ede422b-a688-bf7a-766f-76400677bcdc"
+			type: "shader_negative"
+			position_x: -94.2406005859375
+			position_y: 278.4930419921875
+		}
+		{
+			__uuid: "4534f6d7-9014-e71f-41fc-637132e3442a"
+			type: "shader_acos"
+			position_x: 154.775146484375
+			position_y: 262.5560607910156
+		}
+		{
+			__uuid: "1037794a-3727-395f-7402-b2fa05f3762f"
+			type: "shader_construct_float2"
+			position_x: 350.99951171875
+			position_y: 98.15838623046875
+		}
+		{
+			__uuid: "40d6774e-10cf-f76c-a26c-8d85d13535cc"
+			type: "shader_construct_float2"
+			position_x: 377.2908935546875
+			position_y: -91.69595336914063
+		}
+		{
+			__uuid: "cf626071-f0a7-25ca-197e-e2b9b96f5fff"
+			type: "shader_mul"
+			position_x: 158.75927734375
+			position_y: -120.9754638671875
+		}
+		{
+			__uuid: "bb99437b-16e5-ad47-f9de-5d1bc69bdec4"
+			type: "shader_constant"
+			position_x: -93.86672973632813
+			position_y: -149.7982788085938
+		}
+		{
+			__uuid: "6f24bc0d-f636-f156-e7da-6b60da1707a6"
+			type: "shader_div"
+			position_x: 651.4993896484375
+			position_y: -24.1644287109375
+		}
+		{
+			__uuid: "74abfa89-893d-d6d8-0c0d-1fe74cc79588"
+			type: "shader_sample_2d"
+			position_x: 1003.771240234375
+			position_y: -197.5839233398438
+		}
+		{
+			__uuid: "a4ea4627-9701-b857-14c4-85ed8c29a026"
+			type: "shader_geometry_quad"
+			position_x: 833.6626586914063
+			position_y: -444.5196838378906
+		}
+		{
+			__uuid: "01be1f90-c27d-8a26-3cd4-96b5f10b0c58"
+			type: "shader_input_vertex_id"
+			position_x: 566.1515502929688
+			position_y: -416.6033935546875
+		}
+		{
+			__uuid: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+			type: "unlit_output"
+			position_x: 1251.844360351563
+			position_y: -363.0235900878906
+			settings: {
+				__type: "tm_shader_system_compiled_result"
+				__uuid: "bd487164-7b03-f5b9-5086-960f132a843d"
+			}
+		}
+		{
+			__uuid: "275d4c7f-1fa4-dd1e-0a5d-49adc019318e"
+			type: "drawcall"
+			position_x: 1540.758666992188
+			position_y: -314.0636596679688
+		}
+	]
+	connections: [
+		{
+			__uuid: "5bce7bbd-3aed-319d-8441-17848c5b2d67"
+			from_node: "d5916cb0-5dcf-6632-e8fd-9b239956ad64"
+			to_node: "dc2c9726-5ab4-7fb8-59f4-837a89be3687"
+			from_connector_hash: "f6464c8f00d889c5"
+			to_connector_hash: "80edf8ab6760fa67"
+		}
+		{
+			__uuid: "4c6f40c8-4c07-6624-9465-dd909b5b2d22"
+			from_node: "dc2c9726-5ab4-7fb8-59f4-837a89be3687"
+			to_node: "cc2d844c-05a7-6d76-8883-912ae8909316"
+			from_connector_hash: "758d2ccb1cc377ed"
+			to_connector_hash: "9a5db2cd2c1fd6ce"
+		}
+		{
+			__uuid: "4d52f041-f657-0585-c97f-8227efe05470"
+			from_node: "dc2c9726-5ab4-7fb8-59f4-837a89be3687"
+			to_node: "cc2d844c-05a7-6d76-8883-912ae8909316"
+			from_connector_hash: "7c8a017db1fb3f1b"
+			to_connector_hash: "8295151af8224269"
+		}
+		{
+			__uuid: "34ceb80e-5841-8438-c09a-6d5886dcb72b"
+			from_node: "cc2d844c-05a7-6d76-8883-912ae8909316"
+			to_node: "3875edf3-edfa-57a4-2354-ba46c121fc82"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "ea8bfc7d922a2a37"
+		}
+		{
+			__uuid: "dda790c7-4de1-8df9-b728-0e8a8ba7b158"
+			from_node: "d36339d1-9d80-6b43-58e8-b82219dc5610"
+			to_node: "3875edf3-edfa-57a4-2354-ba46c121fc82"
+			from_connector_hash: "920b430f38928dc9"
+			to_connector_hash: "071717d2d36b6b11"
+		}
+		{
+			__uuid: "4576467f-0725-79d6-a007-4a47edb40910"
+			from_node: "dc2c9726-5ab4-7fb8-59f4-837a89be3687"
+			to_node: "7ede422b-a688-bf7a-766f-76400677bcdc"
+			from_connector_hash: "64be65553e50d117"
+			to_connector_hash: "071717d2d36b6b11"
+		}
+		{
+			__uuid: "9ce12f1c-98ae-82e2-9a88-c2d9c97ceff0"
+			from_node: "7ede422b-a688-bf7a-766f-76400677bcdc"
+			to_node: "4534f6d7-9014-e71f-41fc-637132e3442a"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "071717d2d36b6b11"
+		}
+		{
+			__uuid: "7414c78d-482c-f30f-6afd-35046dfc6bdd"
+			from_node: "4534f6d7-9014-e71f-41fc-637132e3442a"
+			to_node: "1037794a-3727-395f-7402-b2fa05f3762f"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "9a5db2cd2c1fd6ce"
+		}
+		{
+			__uuid: "99fc99c9-c072-b078-b9df-74bf67c9a947"
+			from_node: "3875edf3-edfa-57a4-2354-ba46c121fc82"
+			to_node: "1037794a-3727-395f-7402-b2fa05f3762f"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "8295151af8224269"
+		}
+		{
+			__uuid: "2ca56567-211d-f1a6-572a-56e24bf5bff9"
+			from_node: "d36339d1-9d80-6b43-58e8-b82219dc5610"
+			to_node: "cf626071-f0a7-25ca-197e-e2b9b96f5fff"
+			from_connector_hash: "920b430f38928dc9"
+			to_connector_hash: "ea8bfc7d922a2a37"
+		}
+		{
+			__uuid: "52d132af-d7ea-1d92-e2e0-7d23d7f49e18"
+			from_node: "bb99437b-16e5-ad47-f9de-5d1bc69bdec4"
+			to_node: "cf626071-f0a7-25ca-197e-e2b9b96f5fff"
+			from_connector_hash: "920b430f38928dc9"
+			to_connector_hash: "071717d2d36b6b11"
+		}
+		{
+			__uuid: "ed87c113-078c-5517-d1e3-03b2dbf86fc0"
+			from_node: "cf626071-f0a7-25ca-197e-e2b9b96f5fff"
+			to_node: "40d6774e-10cf-f76c-a26c-8d85d13535cc"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "8295151af8224269"
+		}
+		{
+			__uuid: "2dc710da-a73b-4c54-2ab7-6c8d197b5e92"
+			from_node: "d36339d1-9d80-6b43-58e8-b82219dc5610"
+			to_node: "40d6774e-10cf-f76c-a26c-8d85d13535cc"
+			from_connector_hash: "920b430f38928dc9"
+			to_connector_hash: "9a5db2cd2c1fd6ce"
+		}
+		{
+			__uuid: "d877f587-ea45-b26a-0ec7-4f614c1ba2a9"
+			from_node: "1037794a-3727-395f-7402-b2fa05f3762f"
+			to_node: "6f24bc0d-f636-f156-e7da-6b60da1707a6"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "071717d2d36b6b11"
+		}
+		{
+			__uuid: "78fce251-a01a-5880-5e9d-26c891492049"
+			from_node: "40d6774e-10cf-f76c-a26c-8d85d13535cc"
+			to_node: "6f24bc0d-f636-f156-e7da-6b60da1707a6"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "ea8bfc7d922a2a37"
+		}
+		{
+			__uuid: "60ba691f-4ff6-2a86-80e9-70b5053dda27"
+			from_node: "228b12da-1f04-1d61-dc4f-7d2472e33c93"
+			to_node: "74abfa89-893d-d6d8-0c0d-1fe74cc79588"
+			from_connector_hash: "759d549788b7b7e0"
+			to_connector_hash: "1070f86ae935924b"
+		}
+		{
+			__uuid: "5804b438-8bf6-405a-5ad2-15c6cef45455"
+			from_node: "6f24bc0d-f636-f156-e7da-6b60da1707a6"
+			to_node: "74abfa89-893d-d6d8-0c0d-1fe74cc79588"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "153bf17b6dcaf9d2"
+		}
+		{
+			__uuid: "cf960072-2c77-ea2f-f457-667032123b48"
+			from_node: "01be1f90-c27d-8a26-3cd4-96b5f10b0c58"
+			to_node: "a4ea4627-9701-b857-14c4-85ed8c29a026"
+			from_connector_hash: "fba886557a273c2f"
+			to_connector_hash: "fba886557a273c2f"
+		}
+		{
+			__uuid: "e5245b89-8240-25a9-ef7e-61f3db85f10a"
+			from_node: "a4ea4627-9701-b857-14c4-85ed8c29a026"
+			to_node: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+			from_connector_hash: "8bbeb160190f613a"
+			to_connector_hash: "fa84b35e5e42d947"
+		}
+		{
+			__uuid: "96ebf9b3-4585-3522-fde3-ee9a68631a20"
+			from_node: "a4ea4627-9701-b857-14c4-85ed8c29a026"
+			to_node: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+			from_connector_hash: "153bf17b6dcaf9d2"
+			to_connector_hash: "0bc9478798ae93c1"
+		}
+		{
+			__uuid: "b1807163-f33e-1158-7392-3be2e47e265f"
+			from_node: "74abfa89-893d-d6d8-0c0d-1fe74cc79588"
+			to_node: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+			from_connector_hash: "1609e8f8d8051ecb"
+			to_connector_hash: "06776ddaf0290228"
+		}
+		{
+			__uuid: "79d83ab3-6ddd-6166-f9fa-1d0163ef2ca2"
+			from_node: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+			to_node: "275d4c7f-1fa4-dd1e-0a5d-49adc019318e"
+			from_connector_hash: "2be49fca20727525"
+			to_connector_hash: "2be49fca20727525"
+		}
+	]
+	data: [
+		{
+			__uuid: "168a7e49-5837-efbd-5076-034ce933990f"
+			to_node: "228b12da-1f04-1d61-dc4f-7d2472e33c93"
+			to_connector_hash: "0bfe464427987240"
+			data: {
+				__type: "tm_creation_graph_resource_reference"
+				__uuid: "6645399c-681e-0499-174a-7b8c43026b4b"
+				creation_graph: "d00a9efe-49b2-7180-5f17-1dbcba458f50"
+				node_type_hash: "c8514a5dad78def5"
+			}
+		}
+		{
+			__uuid: "59c57769-9a7c-f9d3-c1d9-f47faebdd589"
+			to_node: "d36339d1-9d80-6b43-58e8-b82219dc5610"
+			to_connector_hash: "6bb47b51ae4a21ff"
+			data: {
+				__type: "tm_shader_system_constant_node_settings"
+				__uuid: "7440d850-c50d-caab-01b2-dca7156f0da0"
+				value_type_hash: "6d0a4e744c45523b"
+				value: {
+					__type: "tm_float"
+					__uuid: "3a978059-3d2b-017e-de1a-46ae20599b67"
+					float: 3.141590118408203
+				}
+			}
+		}
+		{
+			__uuid: "4688dd3c-51c3-085f-1f8e-8ae891b6bed4"
+			to_node: "bb99437b-16e5-ad47-f9de-5d1bc69bdec4"
+			to_connector_hash: "6bb47b51ae4a21ff"
+			data: {
+				__type: "tm_shader_system_constant_node_settings"
+				__uuid: "2d54482f-ee89-a205-4ef2-806ff1740dee"
+				value_type_hash: "6d0a4e744c45523b"
+				value: {
+					__type: "tm_float"
+					__uuid: "68e135c7-9a72-cabc-fe73-d2bca241fe86"
+					float: 2
+				}
+			}
+		}
+		{
+			__uuid: "f889a540-d874-7431-6628-59d8eeebb675"
+			to_node: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+			to_connector_hash: "47d4fffc5f321958"
+			data: {
+				__type: "unlit_output_vertex_settings"
+				__uuid: "85faaeed-0169-73c2-75db-9a3256409769"
+				position_space: "c8a0390979cbbaa9"
+			}
+		}
+		{
+			__uuid: "d443f7ef-02e0-b82b-ed29-c9e8e63e69c6"
+			to_node: "275d4c7f-1fa4-dd1e-0a5d-49adc019318e"
+			to_connector_hash: "643e5b63623d8285"
+			data: {
+				__type: "tm_uint32_t"
+				__uuid: "026ccd2f-0f9c-3989-93a4-a28596f92b65"
+				uint32_t: 1
+			}
+		}
+		{
+			__uuid: "441d2882-134d-f615-f6e4-cb60e3ac7294"
+			to_node: "275d4c7f-1fa4-dd1e-0a5d-49adc019318e"
+			to_connector_hash: "5c448fe04f336bb8"
+			data: {
+				__type: "tm_uint32_t"
+				__uuid: "bfc2b6c1-d80e-d257-7a81-9b4c14c36785"
+				uint32_t: 6
+			}
+		}
+	]
+	interface: {
+		__uuid: "cccbf93f-d2b5-6e02-b268-f244d409502f"
+		cached_node_result: [
+			{
+				__uuid: "857cad26-f146-7f2b-0f8b-3074afb050de"
+				node: "f47d2cf7-914e-862e-22e5-3e727e8e62f1"
+				validity_hash: "24349a1834a20c72"
+				object: {
+					__type: "tm_shader_system_compiled_result"
+					__uuid: "8842dc96-b23f-55bd-7449-c5b7504ee26a"
+					name: "24349a1834a20c72"
+					buffer: "44be26981ee138d6"
+				}
+			}
+		]
+	}
+}
+__asset_uuid: "5989c76c-dce8-cc56-fff3-6fe50f7ed0c4"

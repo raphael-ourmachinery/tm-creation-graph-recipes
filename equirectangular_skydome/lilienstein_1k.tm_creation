@@ -1,0 +1,44 @@
+__type: "tm_creation_graph"
+__uuid: "d00a9efe-49b2-7180-5f17-1dbcba458f50"
+__prototype_type: "tm_creation_graph"
+__prototype_uuid: "9f829e31-b0cb-b5fe-21af-ab561d841602"
+graph: {
+	__uuid: "cff4a6b2-ada6-cc09-3a6b-045005de9b05"
+	__prototype_type: "tm_graph"
+	__prototype_uuid: "36cc8645-6b6a-0744-1cee-700e60d86f2a"
+	interface: {
+		__uuid: "1837e59a-297c-6c4c-eff1-5930fba690c1"
+		__prototype_type: "tm_graph_interface"
+		__prototype_uuid: "2f55d40b-e256-67df-d350-1e937c342921"
+		inputs__instantiated: [
+			{
+				__uuid: "b69a53c2-93ab-a738-c52d-5967bf781be5"
+				__prototype_type: "tm_graph_input"
+				__prototype_uuid: "928659a7-4021-a622-d1e0-c757232b9220"
+				value: {
+					__type: "tm_image_archive"
+					__uuid: "b9b65295-ffbb-09f8-27ab-543c72b9b9ce"
+					filename: "/home/vasconssa/Downloads/lilienstein_1k.exr"
+					validity_hash: "2e08a815c0859081"
+					description: {
+						__uuid: "ab088fc0-a59e-5a18-784e-2bd1b7d63983"
+						pixel_format: 25298976
+						widht: 1024
+						height: 512
+						debug_tag: "/home/vasconssa/Downloads/lilienstein_1k.exr"
+					}
+					buffer: "639fea159cad537a"
+				}
+			}
+		]
+	}
+}
+__asset_uuid: "c5e6582b-26bb-bcde-bf5a-1c8f5a863545"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "57e59fc3-7545-ff91-20da-13b080686331"
+	thumbnail: "e6a7f04faec6b8a5"
+	validity_hash: "2e08a815c0859081"
+}
