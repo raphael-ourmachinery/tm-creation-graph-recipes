@@ -1,0 +1,100 @@
+__type: "tm_entity"
+__uuid: "78cfb268-1be3-a5f1-3b5a-03e80b31a731"
+name: "UI"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "81cca559-79fd-1afb-fe02-b5af5c648fdf"
+		local_position: {
+			__uuid: "57060b7c-e2b3-d2cc-7514-a3e2b86f1730"
+		}
+		local_rotation: {
+			__uuid: "a4956823-16e1-2cea-1916-1c434d050c90"
+		}
+		local_scale: {
+			__uuid: "1a52a470-f15e-0be8-2f31-6c9e61339f6a"
+		}
+	}
+	{
+		__type: "tm_ui_canvas_component"
+		__uuid: "88cd9b7d-7061-cf5e-2f41-48607e86d153"
+		reference_screen_size: {
+			__uuid: "4ca4c1c4-b83c-fa35-c6de-a24faf836e0f"
+			x: 1920
+			y: 1080
+		}
+		virtual_rect: {
+			__uuid: "b7b63631-61ae-2213-8db2-d5aa436b21da"
+			w: 100
+			h: 100
+		}
+		fullscreen: true
+		theme: "acd26c23-bb07-8ec4-45d1-e6f89b79fbd3"
+		font_size: 12
+	}
+]
+children: [
+	{
+		__uuid: "cb2fd9d0-f9aa-a356-3250-a3ccc796c85f"
+		name: "Entity 2"
+		components: [
+			{
+				__type: "tm_ui_element_component"
+				__uuid: "6468485a-dbe9-27b5-0e20-58a0863088c4"
+				"font scale": 2
+				control: {
+					__type: "tm_ui_control_label"
+					__uuid: "42ab6162-ac61-0ed1-dd0b-928deb25211f"
+					rect: {
+						__uuid: "eec5f688-7f50-d7a4-2b67-54bb628d15d7"
+						x: 20
+						y: 20
+						w: 1000
+						h: 40
+					}
+					text: "Press SPACE to throw a ball"
+					tooltip: ""
+				}
+			}
+		]
+	}
+	{
+		__uuid: "36fb4f86-fffd-dab9-2ce4-90df64f5fed2"
+		name: "Entity 2"
+		components: [
+			{
+				__type: "tm_ui_element_component"
+				__uuid: "ef4857f7-e9e1-eb1b-67a0-798317fd4511"
+				"font scale": 2
+				control: {
+					__type: "tm_ui_control_label"
+					__uuid: "1a958cf1-26cc-8119-732a-02c5384aa0ff"
+					rect: {
+						__uuid: "66deb974-b83b-7b23-cf5c-c5e2c5a18602"
+						x: 20
+						y: 60
+						w: 1000
+						h: 40
+					}
+					text: "Use RIGHT MOUSE and WASD to fly"
+					tooltip: ""
+				}
+			}
+		]
+	}
+]
+child_sort_values: [
+	{
+		__uuid: "e8822041-96dd-be26-1d71-97d73e07d388"
+	}
+	{
+		__uuid: "49ed667e-f685-74db-f6d1-14c8030c2708"
+		entity: "cb2fd9d0-f9aa-a356-3250-a3ccc796c85f"
+	}
+	{
+		__uuid: "74d1c838-0c6f-1926-6ffb-1f19fc752f0c"
+		entity: "36fb4f86-fffd-dab9-2ce4-90df64f5fed2"
+		value: 1
+	}
+]
+__asset_uuid: "d0c549b7-3ab1-1d41-c4ca-fa61267042b0"

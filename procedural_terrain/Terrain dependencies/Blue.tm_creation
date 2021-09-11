@@ -1,0 +1,69 @@
+__type: "tm_creation_graph"
+__uuid: "2b303f51-b8bb-330a-5f59-48660969f3af"
+__prototype_type: "tm_creation_graph"
+__prototype_uuid: "7da856e3-61ed-868f-c895-98090c8f4b6d"
+graph: {
+	__uuid: "0a8d9c19-ff69-b194-5140-11e767b96925"
+	__prototype_type: "tm_graph"
+	__prototype_uuid: "63fd3f6c-2348-52c8-7ade-0c353c1f7c56"
+	interface: {
+		__uuid: "01a632ab-00fc-efc0-54a6-d105af4bf04a"
+		__prototype_type: "tm_graph_interface"
+		__prototype_uuid: "151e8a2b-76eb-3b09-d0e4-74dbc83c3447"
+		inputs__instantiated: [
+			{
+				__uuid: "cbcd717e-8ba4-7a72-c085-ee8dd7e6a723"
+				__prototype_type: "tm_graph_input"
+				__prototype_uuid: "066857ec-9bd9-1202-8f9b-437626410e1b"
+				value_set_by_user: true
+				value: {
+					__type: "tm_dcc_asset_material_node_settings"
+					__uuid: "9efd6715-bc77-12f0-f69e-99d4c4793bc2"
+					dcc_asset: "d8bd6259-abaf-9b59-8645-d4b745e152cc"
+					material: "04a7bbeb-efaf-79fa-06a6-4727a307050e"
+				}
+			}
+			{
+				__uuid: "2bd18f1f-e2d8-df2d-ca51-c52bfa6a38b1"
+				__prototype_type: "tm_graph_input"
+				__prototype_uuid: "00e66b27-675f-0261-b7dd-be0cad2d0f64"
+				value_set_by_user: true
+				value: {
+					__type: "tm_color_rgba"
+					__uuid: "99a855b2-b631-a43b-df52-5355c00e3bae"
+					__prototype_type: "tm_color_rgba"
+					__prototype_uuid: "482007aa-8ca0-0efb-8f20-c292fc63617b"
+					r: 0.02855383232235909
+					g: 0.04658332094550133
+					b: 0.2643862664699554
+				}
+			}
+			{
+				__uuid: "d46e7672-921d-f4ab-fc9f-dd9a2956ecec"
+				__prototype_type: "tm_graph_input"
+				__prototype_uuid: "b37d8e28-a42c-e188-afe0-c6fd0fc77506"
+				value: {
+					__type: "tm_float"
+					__uuid: "3ba499b3-6c67-b5f4-8205-97deb85b8823"
+					__prototype_type: "tm_float"
+					__prototype_uuid: "86701e82-3244-3617-5699-7b8ce8c6d55e"
+				}
+			}
+			{
+				__uuid: "85a96a65-8442-50c3-7d2b-11600f4ea024"
+				__prototype_type: "tm_graph_input"
+				__prototype_uuid: "9baa69da-86c4-2f74-7399-a4bd6e50f844"
+				value: {
+					__type: "tm_float"
+					__uuid: "52610da8-9dc3-fedc-f2ce-75d60ba9ee83"
+					__prototype_type: "tm_float"
+					__prototype_uuid: "222417dc-a8de-be9f-6513-64a16b419b19"
+				}
+			}
+		]
+	}
+}
+__asset_uuid: "b7854564-18a0-c051-a205-bfe967735f63"
+__asset_labels: [
+	"672a73adabfebcc2"
+]

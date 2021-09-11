@@ -1099,6 +1099,7 @@ graph: {
 		inputs: [
 			{
 				__uuid: "79d54bd4-3eb3-ecbd-5c0f-d0169ef7685e"
+				name: "base_color_texture"
 				display_name: "Base Color Texture"
 				id: "1"
 				type_hash: "2cf8ac15b913494b"
@@ -1112,6 +1113,7 @@ graph: {
 			}
 			{
 				__uuid: "42b5a86f-3bbf-5550-67d2-e0238e3da275"
+				name: "base_color"
 				display_name: "Base Color"
 				id: "2"
 				type_hash: "11e53fa0440a07e4"
@@ -1124,6 +1126,7 @@ graph: {
 			}
 			{
 				__uuid: "785dbd59-6420-1153-fc46-cdf345de93a8"
+				name: "normal_map"
 				display_name: "Normal Map"
 				id: "3"
 				type_hash: "2cf8ac15b913494b"
@@ -1137,6 +1140,7 @@ graph: {
 			}
 			{
 				__uuid: "212393bd-1721-ada6-8f9f-0da30898e59c"
+				name: "metallic_roughness_map"
 				display_name: "Metallic Roughness Map"
 				id: "4"
 				type_hash: "2cf8ac15b913494b"
@@ -1150,6 +1154,7 @@ graph: {
 			}
 			{
 				__uuid: "c9fab5fe-1f36-56b4-7a72-140e8766c664"
+				name: "metallic"
 				display_name: "Metallic"
 				id: "5"
 				type_hash: "6d0a4e744c45523b"
@@ -1162,10 +1167,10 @@ graph: {
 			}
 			{
 				__uuid: "fc7eba21-e398-24fe-1374-da25d580fb6f"
+				name: "roughness"
 				display_name: "Roughness"
 				id: "6"
 				type_hash: "6d0a4e744c45523b"
-				value_set_by_user: true
 				value: {
 					__type: "tm_float"
 					__uuid: "2b2665f0-f3f1-b654-f02c-a5f5e64f4be7"
@@ -1176,6 +1181,7 @@ graph: {
 			}
 			{
 				__uuid: "c342ebfa-25a7-b4a4-965a-5049d5e7f1c0"
+				name: "dcc_asset_material"
 				display_name: "DCC Asset Material"
 				id: "7"
 				type_hash: "95c72c2221a22411"
@@ -1188,6 +1194,7 @@ graph: {
 			}
 			{
 				__uuid: "9a736ab4-0760-e03e-016f-00c5ee9649f6"
+				name: "emissive_color_texture"
 				display_name: "Emissive Color Texture"
 				id: "input__graph_16169466096787828905__8"
 				type_hash: "2cf8ac15b913494b"
@@ -1201,10 +1208,10 @@ graph: {
 			}
 			{
 				__uuid: "4b15b9f4-094b-bc7a-7123-522b637491ba"
+				name: "emissive_color"
 				display_name: "Emissive Color"
 				id: "input__graph_16169466096787828905__9"
 				type_hash: "d0c8704d11c0c0f1"
-				value_set_by_user: true
 				value: {
 					__type: "tm_color_rgb"
 					__uuid: "dd016ed9-3821-23d6-8f54-867b95d5a36a"
@@ -1217,6 +1224,7 @@ graph: {
 			}
 			{
 				__uuid: "ff51d976-5cce-4920-7f13-bb932c5e8e81"
+				name: "surface_settings"
 				display_name: "Surface Settings"
 				id: "input__graph_16169466096787828905__10"
 				type_hash: "a449a40f1522aa84"
@@ -1236,9 +1244,9 @@ graph: {
 				validity_hash: "62c0ea701ad435a0"
 				object: {
 					__type: "tm_shader_system_compiled_result"
-					__uuid: "a62f43df-7a18-858c-0e2b-d2b966d39320"
+					__uuid: "2993b96e-ed18-4a2f-7551-65f4964d7322"
 					name: "62c0ea701ad435a0"
-					buffer: "a0d0d86abeb46863"
+					buffer: "a67a690477145e57"
 				}
 			}
 		]

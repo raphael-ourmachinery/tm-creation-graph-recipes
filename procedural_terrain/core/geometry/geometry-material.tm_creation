@@ -92,12 +92,12 @@ graph: {
 			{
 				__uuid: "7f724f7e-7f17-2c8a-2830-0d02cd15c3e2"
 				node: "e950ecd6-d25f-c719-391c-ab0811f274fe"
-				validity_hash: "bc16fc204e3f6459"
+				validity_hash: "5549214d492ff362"
 				object: {
 					__type: "tm_shader_system_compiled_result"
-					__uuid: "d606f27a-a414-a149-dae6-2d8fbebbb7c5"
-					name: "bc16fc204e3f6459"
-					buffer: "3fd859cd310b797f"
+					__uuid: "9f71d999-0733-9981-3ca9-0b05085d0ca0"
+					name: "5549214d492ff362"
+					buffer: "cc3252dfc9535771"
 				}
 			}
 		]

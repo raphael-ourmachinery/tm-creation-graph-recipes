@@ -948,12 +948,12 @@ graph: {
 			{
 				__uuid: "fef8ab8b-2516-78d3-aa58-a0a84460b7fc"
 				node: "f1fd2398-de15-6648-37ce-32f69ca1c4c5"
-				validity_hash: "d3f42d8a3cd9a018"
+				validity_hash: "4ea0e3e6344731ac"
 				object: {
 					__type: "tm_shader_system_compiled_result"
-					__uuid: "46b81e02-d983-dab0-791d-d212d7dd696f"
-					name: "d3f42d8a3cd9a018"
-					buffer: "c3f9e9af9d4628c4"
+					__uuid: "60f1f685-7c5a-9f07-3e6d-628c622b2913"
+					name: "4ea0e3e6344731ac"
+					buffer: "6a95ee265e1a7cbb"
 				}
 			}
 		]
@@ -963,3 +963,8 @@ __asset_uuid: "c5b7e54a-e5f4-f4b5-f6ea-78a63dc8df9d"
 __asset_labels: [
 	"e4bec38d8f73f423"
 ]
+__asset_thumbnail: {
+	__uuid: "6e7d5e93-4fc4-9fd4-32bd-1c353a3a616d"
+	thumbnail: "d953dfedc443f61f"
+	validity_hash: "cb633301f3380436"
+}

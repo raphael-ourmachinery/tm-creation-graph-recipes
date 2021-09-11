@@ -977,7 +977,8 @@
 			}
 			{
 				name: "thumbnail"
-				type: "buffer"
+				type: "subobject"
+				type_hash: "2966ca3997ccdb42"
 			}
 		]
 	}
@@ -1010,6 +1011,10 @@
 			{
 				name: "view_mode"
 				type: "uint32_t"
+			}
+			{
+				name: "item_size"
+				type: "float"
 			}
 			{
 				name: "filter_by_type"
@@ -1093,6 +1098,19 @@
 		]
 	}
 	{
+		name: "tm_asset_thumbnail"
+		properties: [
+			{
+				name: "thumbnail"
+				type: "buffer"
+			}
+			{
+				name: "validity_hash"
+				type: "uint64_t"
+			}
+		]
+	}
+	{
 		name: "tm_asset_type"
 		properties: [
 			{
@@ -1114,9 +1132,16 @@
 				type: "float"
 			}
 			{
-				name: "celestial_body_center"
-				type: "subobject"
-				type_hash: "8d1487af36b1e3e1"
+				name: "global_illuminance_scale"
+				type: "float"
+			}
+			{
+				name: "offset_to_ground"
+				type: "bool"
+			}
+			{
+				name: "distance_unit"
+				type: "uint32_t"
 			}
 			{
 				name: "planet_radius"
@@ -1202,8 +1227,8 @@
 		]
 		default: {
 			sun_angular_diameter: 1920
-			celestial_body_center: {
-			}
+			global_illuminance_scale: 1
+			offset_to_ground: true
 			planet_radius: 6371
 			karman_line: 100
 			rayleigh_density1_height_scale: 8
@@ -1225,6 +1250,7 @@
 				g: 0.4440000057220459
 				b: 0.4440000057220459
 			}
+			mie_absorption_scale: 0.009999999776482582
 			mie_phase_function_g: 0.800000011920929
 			ozone_absorption_height_scale: 15
 			ozone_absorption: {
@@ -1269,11 +1295,7 @@
 				type: "float"
 			}
 			{
-				name: "vertical_fov"
-				type: "float"
-			}
-			{
-				name: "box_height"
+				name: "vertical_fov_or_box_height"
 				type: "float"
 			}
 			{
@@ -1292,8 +1314,7 @@
 		default: {
 			near_plane: 0.1000000014901161
 			far_plane: 10000
-			vertical_fov: 1.047197580337524
-			box_height: 25
+			vertical_fov_or_box_height: 1.396263360977173
 			shutter_speed: 100
 			aperture: 4
 			iso: 100
@@ -1788,19 +1809,24 @@
 		properties: [
 			{
 				name: "type"
-				type: "uint32_t"
+				type: "uint64_t"
 			}
 			{
-				name: "param1"
-				type: "float"
+				name: "params"
+				type: "subobject_set"
+				type_hash: "6d0a4e744c45523b"
 			}
+		]
+		default: {
+			type: "849d2b1743ff6282"
+		}
+	}
+	{
+		name: "tm_curve_type"
+		properties: [
 			{
-				name: "param2"
-				type: "float"
-			}
-			{
-				name: "param3"
-				type: "float"
+				name: "name"
+				type: "uint64_t"
 			}
 		]
 	}
@@ -2048,6 +2074,27 @@
 			}
 			{
 				name: "zfar"
+				type: "float"
+			}
+		]
+	}
+	{
+		name: "tm_dcc_asset_color"
+		properties: [
+			{
+				name: "r"
+				type: "float"
+			}
+			{
+				name: "g"
+				type: "float"
+			}
+			{
+				name: "b"
+				type: "float"
+			}
+			{
+				name: "a"
 				type: "float"
 			}
 		]
@@ -2799,7 +2846,8 @@
 		]
 		default: {
 			enabled: true
-			max_ev100: 15
+			min_ev100: -1
+			max_ev100: 18
 			speed_up: 3
 			speed_down: 1
 		}
@@ -3063,6 +3111,10 @@
 				type_hash: "4f4a05b229f12ac9"
 			}
 			{
+				name: "primitive"
+				type: "uint32_t"
+			}
+			{
 				name: "render_pass"
 				type: "uint64_t"
 			}
@@ -3224,6 +3276,16 @@
 				name: "channels"
 				type: "subobject_set"
 				type_hash: "436a01576b7bf03c"
+			}
+		]
+	}
+	{
+		name: "tm_entiy_rigger_component"
+		properties: [
+			{
+				name: "dcc_asset"
+				type: "reference"
+				type_hash: "871719108d287cb9"
 			}
 		]
 	}
@@ -3985,7 +4047,7 @@
 			{
 				name: "channels"
 				type: "subobject_set"
-				type_hash: "7d15e1df3084e998"
+				type_hash: "169f904f8e936bf6"
 			}
 		]
 	}
@@ -4297,6 +4359,16 @@
 		]
 	}
 	{
+		name: "tm_graph_pseudo_interface_object"
+		properties: [
+			{
+				name: "interface"
+				type: "reference"
+				type_hash: "d8d2adf4ea2129be"
+			}
+		]
+	}
+	{
 		name: "tm_graph_pseudo_object"
 		properties: [
 			{
@@ -4472,6 +4544,40 @@
 				g: 0.2630000114440918
 			}
 		}
+	}
+	{
+		name: "tm_houdini_asset"
+		properties: [
+			{
+				name: "test"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_houdini_component"
+		properties: [
+			{
+				name: "pos0"
+				type: "subobject"
+				type_hash: "8d1487af36b1e3e1"
+			}
+			{
+				name: "pos1"
+				type: "subobject"
+				type_hash: "8d1487af36b1e3e1"
+			}
+			{
+				name: "pos2"
+				type: "subobject"
+				type_hash: "8d1487af36b1e3e1"
+			}
+			{
+				name: "color"
+				type: "subobject"
+				type_hash: "d0c8704d11c0c0f1"
+			}
+		]
 	}
 	{
 		name: "tm_image"
@@ -4774,6 +4880,180 @@
 		]
 	}
 	{
+		name: "tm_network_node_accepter"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_asset"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "bootstrappers"
+				type: "subobject_set"
+				type_hash: "df49d528da794bd3"
+			}
+			{
+				name: "receivers"
+				type: "subobject_set"
+				type_hash: "2dc6998daf883373"
+			}
+			{
+				name: "accepters"
+				type: "subobject_set"
+				type_hash: "5467f1db7c000048"
+			}
+			{
+				name: "disconnect handlers"
+				type: "subobject_set"
+				type_hash: "f3d6609dd4b49cd9"
+			}
+			{
+				name: "not responding handlers"
+				type: "subobject_set"
+				type_hash: "f8ba1d5665e8db23"
+			}
+			{
+				name: "disabled components"
+				type: "subobject_set"
+				type_hash: "245d01d2562b22e9"
+			}
+			{
+				name: "disabled engines"
+				type: "subobject_set"
+				type_hash: "76694932b9933b07"
+			}
+			{
+				name: "disabled systems"
+				type: "subobject_set"
+				type_hash: "73e8309bad5667f0"
+			}
+			{
+				name: "send updates to"
+				type: "subobject_set"
+				type_hash: "dc2b19c4af5e7e5c"
+			}
+			{
+				name: "graph events to transmit"
+				type: "subobject_set"
+				type_hash: "3658ceff2ca147ae"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_bootstrapper"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_disabled_component"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_disabled_engine"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_disabled_system"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_disconnected_handler"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_graph_event_to_transmit"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "transmit sorted globally"
+				type: "bool"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_instance"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "port"
+				type: "uint32_t"
+			}
+			{
+				name: "update when hidden"
+				type: "bool"
+			}
+			{
+				name: "empty world"
+				type: "bool"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_not_responding_handler"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_receiver"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_send_update_to"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
 		name: "tm_path_tracing_component"
 		properties: [
 		]
@@ -4891,12 +5171,12 @@
 			{
 				name: "offset_0"
 				type: "subobject"
-				type_hash: "8d1487af36b1e3e1"
+				type_hash: "7a29b8f6b1ca42ec"
 			}
 			{
 				name: "offset_1"
 				type: "subobject"
-				type_hash: "8d1487af36b1e3e1"
+				type_hash: "7a29b8f6b1ca42ec"
 			}
 			{
 				name: "limit_enabled"
@@ -5127,6 +5407,21 @@
 				type_hash: "86cdc943543bcd3f"
 			}
 			{
+				name: "position"
+				type: "subobject"
+				type_hash: "7a29b8f6b1ca42ec"
+			}
+			{
+				name: "rotation"
+				type: "subobject"
+				type_hash: "a4d2f46b41c9d717"
+			}
+			{
+				name: "scale"
+				type: "subobject"
+				type_hash: "20ef513a9606cc30"
+			}
+			{
 				name: "collision"
 				type: "reference"
 				type_hash: "a7877788271e981c"
@@ -5140,6 +5435,12 @@
 			type: 1
 			shape: {
 				__type: "tm_physics_shape_sphere"
+			}
+			position: {
+			}
+			rotation: {
+			}
+			scale: {
 			}
 		}
 	}
@@ -5597,10 +5898,19 @@
 				name: "scaling_absolute_handle"
 				type: "bool"
 			}
+			{
+				name: "scale_snap"
+				type: "bool"
+			}
+			{
+				name: "scale_snap_increment"
+				type: "float"
+			}
 		]
 		default: {
 			move_snap_size: 1
 			rotation_snap_angle: 15
+			scale_snap_increment: 1
 		}
 	}
 	{
@@ -6644,11 +6954,58 @@
 		]
 	}
 	{
+		name: "tm_shortcuts_entry"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "primary_key"
+				type: "uint32_t"
+			}
+			{
+				name: "primary_modifiers"
+				type: "uint32_t"
+			}
+			{
+				name: "secondary_key"
+				type: "uint32_t"
+			}
+			{
+				name: "secondary_modifiers"
+				type: "uint32_t"
+			}
+		]
+	}
+	{
+		name: "tm_shortcuts_index"
+		properties: [
+			{
+				name: "entries"
+				type: "subobject_set"
+				type_hash: "cf7e203c57b13307"
+			}
+		]
+		default: {
+		}
+	}
+	{
 		name: "tm_simulate_entry"
 		properties: [
 			{
 				name: "id"
 				type: "uint64_t"
+			}
+		]
+	}
+	{
+		name: "tm_simulation_entry_component"
+		properties: [
+			{
+				name: "ids"
+				type: "subobject_set"
+				type_hash: "b11aa2e510ce635e"
 			}
 		]
 	}
@@ -7092,6 +7449,33 @@
 		]
 	}
 	{
+		name: "tm_translation"
+		properties: [
+			{
+				name: "english"
+				type: "string"
+			}
+			{
+				name: "language"
+				type: "string"
+			}
+			{
+				name: "translation"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_translation_cache"
+		properties: [
+			{
+				name: "translations"
+				type: "subobject_set"
+				type_hash: "1638c41e410895d9"
+			}
+		]
+	}
+	{
 		name: "tm_tt_entity_spawner_channel_reference"
 		properties: [
 			{
@@ -7107,6 +7491,107 @@
 		]
 	}
 	{
+		name: "tm_ui_button_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "style"
+				type: "subobject"
+				type_hash: "addbef93e740abf2"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "text"
+				type: "string"
+			}
+			{
+				name: "tooltip"
+				type: "string"
+			}
+			{
+				name: "color"
+				type: "subobject"
+				type_hash: "d0c8704d11c0c0f1"
+			}
+			{
+				name: "normal_texture"
+				type: "subobject"
+				type_hash: "a4bf771c92f7b3b7"
+			}
+			{
+				name: "hover_texture"
+				type: "subobject"
+				type_hash: "a4bf771c92f7b3b7"
+			}
+			{
+				name: "active_texture"
+				type: "subobject"
+				type_hash: "a4bf771c92f7b3b7"
+			}
+			{
+				name: "text_offset_y"
+				type: "float"
+			}
+			{
+				name: "is_disabled"
+				type: "bool"
+			}
+			{
+				name: "hide_background"
+				type: "bool"
+			}
+			{
+				name: "hide_margins"
+				type: "bool"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			style: {
+			}
+			layout: {
+			}
+			text: "text"
+			color: {
+			}
+			normal_texture: {
+				uv: {
+					w: 1
+					h: 1
+				}
+			}
+			hover_texture: {
+				uv: {
+					w: 1
+					h: 1
+				}
+			}
+			active_texture: {
+				uv: {
+					w: 1
+					h: 1
+				}
+			}
+		}
+	}
+	{
 		name: "tm_ui_canvas_component"
 		properties: [
 			{
@@ -7117,6 +7602,10 @@
 				name: "reference_screen_size"
 				type: "subobject"
 				type_hash: "5ea1bb7b6537de46"
+			}
+			{
+				name: "keep_aspect_ratio"
+				type: "bool"
 			}
 			{
 				name: "virtual_rect"
@@ -7139,6 +7628,11 @@
 				name: "theme"
 				type: "reference"
 				type_hash: "2068b64b38668594"
+			}
+			{
+				name: "font"
+				type: "reference"
+				type_hash: "9bc564c1955bfdc7"
 			}
 			{
 				name: "font_size"
@@ -7179,6 +7673,149 @@
 				type: "uint32_t"
 			}
 		]
+	}
+	{
+		name: "tm_ui_components_custom_layout"
+		properties: [
+			{
+				name: "fixed_left"
+				type: "bool"
+			}
+			{
+				name: "fixed_right"
+				type: "bool"
+			}
+			{
+				name: "fixed_top"
+				type: "bool"
+			}
+			{
+				name: "fixed_bottom"
+				type: "bool"
+			}
+		]
+		default: {
+		}
+	}
+	{
+		name: "tm_ui_components_custom_spritesheet"
+		properties: [
+			{
+				name: "size"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
+			}
+			{
+				name: "frames"
+				type: "subobject_set"
+				type_hash: "e5db4fef75ef4ad5"
+			}
+		]
+		default: {
+			size: {
+			}
+		}
+	}
+	{
+		name: "tm_ui_components_custom_spritesheet_frame"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "frame"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "order"
+				type: "double"
+			}
+		]
+		default: {
+			frame: {
+			}
+		}
+	}
+	{
+		name: "tm_ui_components_custom_style"
+		properties: [
+			{
+				name: "font"
+				type: "reference"
+				type_hash: "9bc564c1955bfdc7"
+			}
+			{
+				name: "font_size"
+				type: "uint32_t"
+			}
+			{
+				name: "font scale"
+				type: "float"
+			}
+			{
+				name: "theme"
+				type: "reference"
+				type_hash: "2068b64b38668594"
+			}
+		]
+		default: {
+			font_size: 9
+			"font scale": 1
+		}
+	}
+	{
+		name: "tm_ui_components_custom_texture"
+		properties: [
+			{
+				name: "texture"
+				type: "reference"
+				type_hash: "c5f12f23d4534d76"
+			}
+			{
+				name: "uv"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "spritesheet"
+				type: "reference"
+				type_hash: "f791664da54ede9a"
+			}
+			{
+				name: "frame"
+				type: "uint32_t"
+			}
+		]
+		default: {
+			uv: {
+				w: 1
+				h: 1
+			}
+		}
+	}
+	{
+		name: "tm_ui_container_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+		}
 	}
 	{
 		name: "tm_ui_control_button"
@@ -7589,6 +8226,10 @@
 				name: "align"
 				type: "uint32_t"
 			}
+			{
+				name: "wrap"
+				type: "bool"
+			}
 		]
 		default: {
 			rect: {
@@ -7708,6 +8349,139 @@
 		}
 	}
 	{
+		name: "tm_ui_grid_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "rows"
+				type: "uint32_t"
+			}
+			{
+				name: "columns"
+				type: "uint32_t"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			rows: 1
+			columns: 1
+		}
+	}
+	{
+		name: "tm_ui_minimal_textured_rect_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "uv"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "spritesheet"
+				type: "reference"
+				type_hash: "f791664da54ede9a"
+			}
+			{
+				name: "frame"
+				type: "uint32_t"
+			}
+			{
+				name: "texture"
+				type: "reference"
+				type_hash: "c5f12f23d4534d76"
+			}
+			{
+				name: "color"
+				type: "subobject"
+				type_hash: "11e53fa0440a07e4"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			uv: {
+				w: 1
+				h: 1
+			}
+			color: {
+			}
+		}
+	}
+	{
+		name: "tm_ui_rect_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "background_color"
+				type: "subobject"
+				type_hash: "d0c8704d11c0c0f1"
+			}
+			{
+				name: "border_color"
+				type: "subobject"
+				type_hash: "d0c8704d11c0c0f1"
+			}
+			{
+				name: "border_width"
+				type: "float"
+			}
+			{
+				name: "hide_background"
+				type: "bool"
+			}
+			{
+				name: "hide_margins"
+				type: "bool"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			background_color: {
+			}
+			border_color: {
+			}
+			border_width: 1
+		}
+	}
+	{
 		name: "tm_ui_sample_tt_type"
 		properties: [
 			{
@@ -7724,6 +8498,59 @@
 				type_hash: "ca71127abbb72960"
 			}
 		]
+	}
+	{
+		name: "tm_ui_text_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "style"
+				type: "subobject"
+				type_hash: "addbef93e740abf2"
+			}
+			{
+				name: "align"
+				type: "uint32_t"
+			}
+			{
+				name: "wrap"
+				type: "bool"
+			}
+			{
+				name: "text"
+				type: "string"
+			}
+			{
+				name: "tooltip"
+				type: "string"
+			}
+			{
+				name: "color"
+				type: "subobject"
+				type_hash: "d0c8704d11c0c0f1"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			style: {
+			}
+			text: "text"
+			color: {
+			}
+		}
 	}
 	{
 		name: "tm_ui_theme"
@@ -7754,6 +8581,43 @@
 				name: "color"
 				type: "subobject"
 				type_hash: "11e53fa0440a07e4"
+			}
+		]
+	}
+	{
+		name: "tm_ui_ttf_font"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "path"
+				type: "string"
+			}
+			{
+				name: "buffer"
+				type: "buffer"
+			}
+			{
+				name: "ranges"
+				type: "subobject_set"
+				type_hash: "6fc00e4cb69d0a15"
+			}
+		]
+		default: {
+		}
+	}
+	{
+		name: "tm_ui_ttf_font_range"
+		properties: [
+			{
+				name: "start"
+				type: "uint32_t"
+			}
+			{
+				name: "number"
+				type: "uint32_t"
 			}
 		]
 	}
