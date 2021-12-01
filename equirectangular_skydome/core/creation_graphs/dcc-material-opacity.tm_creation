@@ -10,8 +10,8 @@ graph: {
 		{
 			__uuid: "08d5bfc4-eece-1eb1-9b4a-2e99a4168149"
 			type: "shader_deconstruct_float4"
-			position_x: 224.3633270263672
-			position_y: -391.1716613769531
+			position_x: 376.9623718261719
+			position_y: -536.504150390625
 		}
 	]
 	connections: [
@@ -34,11 +34,30 @@ graph: {
 		{
 			__uuid: "9fa687ef-0843-9ada-bd11-f0dc5486ddb8"
 			text: "Instance of dcc-material with with Opacity hooked up to alpha of Base Color."
-			position_x: -682.8314819335938
-			position_y: -580.707275390625
+			position_x: -1345.11767578125
+			position_y: -862.6607055664063
+			font_scale: 4
+			tint_color: {
+				__uuid: "946079fb-6c2f-2870-1f45-2a8857dff24a"
+				a: 0.1176470592617989
+			}
+			label_only: true
+		}
+		{
+			__uuid: "21c48672-623e-049f-1a68-4107e3250c87"
+			text: "Opacity"
+			position_x: 252.8207092285156
+			position_y: -591.334716796875
+			width: 242.4402160644531
+			height: 215.2103881835938
 			font_scale: 2
-			color: {
-				__uuid: "e430d0e3-8ce0-fb06-ea76-d9dd84e764dd"
+			override_color: true
+			tint_color: {
+				__uuid: "0cc436f1-65a3-4462-5474-67bb8e466e5a"
+				r: 0.3515326976776123
+				g: 0.2422811985015869
+				b: 0.4125427007675171
+				a: 0.1176470592617989
 			}
 		}
 	]
@@ -70,12 +89,12 @@ graph: {
 				__prototype_type: "tm_graph_cached_node_result"
 				__prototype_uuid: "e104c843-70a9-86c9-5e7f-a63212c7a8fa"
 				node: "49cbc4af-8314-05fa-fabc-00884be0de7a"
-				validity_hash: "c951a40d3093725e"
+				validity_hash: "c23d29ebf93b503f"
 				object: {
 					__type: "tm_shader_system_compiled_result"
-					__uuid: "5665a7c9-e17e-d5b1-0b49-813575a8ac7a"
-					name: "c951a40d3093725e"
-					buffer: "44dc6f855949dfd1"
+					__uuid: "4732efe9-f29f-74af-9f2a-98a28090125f"
+					name: "c23d29ebf93b503f"
+					buffer: "270baa115372b912"
 				}
 			}
 		]

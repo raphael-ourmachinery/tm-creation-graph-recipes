@@ -114,13 +114,15 @@ graph: {
 	comments: [
 		{
 			__uuid: "f9335f8f-0715-db51-f999-7a060bb668f8"
-			text: "Defaiult subgraph for a mesh LOD step"
-			position_x: -216.0350341796875
-			position_y: -275.5
+			text: "Default subgraph for a mesh LOD step"
+			position_x: -220.0350341796875
+			position_y: -298.5
 			font_scale: 2
-			color: {
-				__uuid: "5611b183-474b-0cf3-2559-4dfc7ece3cb3"
+			tint_color: {
+				__uuid: "42b25093-39f6-2fd0-2aca-b5053c64506d"
+				a: 0.1176470592617989
 			}
+			label_only: true
 		}
 	]
 	interface: {

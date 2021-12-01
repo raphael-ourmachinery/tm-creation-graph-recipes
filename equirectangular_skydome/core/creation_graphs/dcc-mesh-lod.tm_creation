@@ -226,12 +226,14 @@ graph: {
 		{
 			__uuid: "a088d639-ea3a-0e97-237f-4804e2ca50ae"
 			text: "Default creation graph for rendering meshes with level of detail (LOD) steps."
-			position_x: -378.100830078125
-			position_y: -230.5833129882813
+			position_x: -382.100830078125
+			position_y: -253.5833129882813
 			font_scale: 2
-			color: {
-				__uuid: "218f7f0c-2f92-6334-86da-2e600e83789c"
+			tint_color: {
+				__uuid: "be4e6cc9-12c9-8ee5-f447-994c64ed0b28"
+				a: 0.1176470592617989
 			}
+			label_only: true
 		}
 	]
 	interface: {

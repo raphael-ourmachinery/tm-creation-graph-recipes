@@ -55,11 +55,12 @@ graph: {
 		{
 			__uuid: "85376150-8b81-8bb4-51ab-d2cc021b093d"
 			text: "Default asset pipeline for imported images"
-			position_x: -403.20166015625
-			position_y: -58.1666259765625
+			position_x: -407.20166015625
+			position_y: -81.1666259765625
 			font_scale: 2
-			color: {
-				__uuid: "8b92707a-313f-c362-c556-af4765a3b83d"
+			tint_color: {
+				__uuid: "d06cb536-fa63-abe1-74f1-fa0b1461d538"
+				a: 0.1176470592617989
 			}
 		}
 	]

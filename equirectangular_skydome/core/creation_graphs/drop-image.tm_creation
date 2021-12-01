@@ -385,12 +385,14 @@ graph: {
 		{
 			__uuid: "b454a615-23f4-01c7-e4a5-c661bd92f154"
 			text: "Default creation graph for rendering of images dropped into the scene tab."
-			position_x: -737.7849731445313
-			position_y: -175.7831115722656
-			font_scale: 2
-			color: {
-				__uuid: "765be1d4-6874-8a68-bb59-60de973592fb"
+			position_x: -1360.02490234375
+			position_y: -290.4248352050781
+			font_scale: 4
+			tint_color: {
+				__uuid: "938e3bd6-0d3e-6670-8049-dfd17c47de0a"
+				a: 0.1176470592617989
 			}
+			label_only: true
 		}
 	]
 	interface: {
@@ -429,12 +431,12 @@ graph: {
 			{
 				__uuid: "a7f4c942-13c4-379c-d720-1faa3f271db9"
 				node: "bce4fc1f-78d4-73e8-a906-5ffb6b95ce57"
-				validity_hash: "a4affb99a93c7eda"
+				validity_hash: "84f95dec40eb38cf"
 				object: {
 					__type: "tm_shader_system_compiled_result"
-					__uuid: "e0721b98-30f4-c708-27e4-807e2965c3c6"
-					name: "a4affb99a93c7eda"
-					buffer: "4d3b0ac12922db3a"
+					__uuid: "749d5f76-af1f-5176-9e2f-8908631a288c"
+					name: "84f95dec40eb38cf"
+					buffer: "c88ea2b7f27d5306"
 				}
 			}
 		]

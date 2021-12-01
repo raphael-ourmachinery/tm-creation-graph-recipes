@@ -62,12 +62,14 @@ graph: {
 		{
 			__uuid: "bd2c2e88-17a9-b655-38e8-6571cade1acd"
 			text: "Default asset pipeline for images extracted from dcc_assets."
-			position_x: -519.8583984375
-			position_y: -135.9166870117188
+			position_x: -483.0250244140625
+			position_y: -155.1980743408203
 			font_scale: 2
-			color: {
-				__uuid: "de65c760-84ef-6ca2-05c1-5c4aea5dc5e8"
+			tint_color: {
+				__uuid: "7854b3e8-123a-3875-c44a-bc1c4468c346"
+				a: 0.1176470592617989
 			}
+			label_only: true
 		}
 	]
 	interface: {

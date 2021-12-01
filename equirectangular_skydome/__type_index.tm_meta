@@ -310,6 +310,183 @@
 		}
 	}
 	{
+		name: "tm_animation_curve"
+		properties: [
+			{
+				name: "ref_asset"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+			{
+				name: "duration"
+				type: "float"
+			}
+			{
+				name: "entities"
+				type: "subobject_set"
+				type_hash: "209bbe5b024cb8ef"
+			}
+		]
+		default: {
+			duration: 8.333333015441895
+			entities: [
+				{
+					name: "."
+					curves: [
+						{
+							name: "transform.local.pos"
+							type: 2
+							x: {
+								keys: [
+									{
+										value: 1
+									}
+									{
+										time: 1
+										value: 1
+									}
+								]
+							}
+							y: {
+								keys: [
+									{
+										value: 0.5
+									}
+									{
+										time: 1
+										value: 0.699999988079071
+									}
+								]
+							}
+							z: {
+								keys: [
+									{
+									}
+									{
+										time: 1
+										value: 0.2000000029802322
+									}
+								]
+							}
+							w: {
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+	{
+		name: "tm_animation_curve_asset_reference"
+		properties: [
+			{
+				name: "curve"
+				type: "reference"
+				type_hash: "aed8751afe4e2988"
+			}
+		]
+	}
+	{
+		name: "tm_animation_curve_component"
+		properties: [
+			{
+				name: "extrapolate_left"
+				type: "uint32_t"
+			}
+			{
+				name: "extrapolate_right"
+				type: "uint32_t"
+			}
+			{
+				name: "keys"
+				type: "subobject_set"
+				type_hash: "8a21801392ab2f09"
+			}
+		]
+	}
+	{
+		name: "tm_animation_curve_entity"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "curves"
+				type: "subobject_set"
+				type_hash: "3c729fa9233c92f3"
+			}
+		]
+	}
+	{
+		name: "tm_animation_curve_key"
+		properties: [
+			{
+				name: "time"
+				type: "float"
+			}
+			{
+				name: "value"
+				type: "float"
+			}
+			{
+				name: "tangent_type"
+				type: "uint32_t"
+			}
+			{
+				name: "tangent_in"
+				type: "float"
+			}
+			{
+				name: "tangent_out"
+				type: "float"
+			}
+		]
+	}
+	{
+		name: "tm_animation_curve_property"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "type"
+				type: "uint32_t"
+			}
+			{
+				name: "x"
+				type: "subobject"
+				type_hash: "f915c3fac2cd27e9"
+			}
+			{
+				name: "y"
+				type: "subobject"
+				type_hash: "f915c3fac2cd27e9"
+			}
+			{
+				name: "z"
+				type: "subobject"
+				type_hash: "f915c3fac2cd27e9"
+			}
+			{
+				name: "w"
+				type: "subobject"
+				type_hash: "f915c3fac2cd27e9"
+			}
+		]
+		default: {
+			x: {
+			}
+			y: {
+			}
+			z: {
+			}
+			w: {
+			}
+		}
+	}
+	{
 		name: "tm_animation_simple_player_component"
 		properties: [
 			{
@@ -373,12 +550,45 @@
 		]
 	}
 	{
+		name: "tm_application_security"
+		properties: [
+			{
+				name: "always_allow_dll_project_paths"
+				type: "subobject_set"
+				type_hash: "a84ae1fca1a3e0cb"
+			}
+			{
+				name: "always_deny_dll_project_paths"
+				type: "subobject_set"
+				type_hash: "a84ae1fca1a3e0cb"
+			}
+		]
+	}
+	{
 		name: "tm_application_settings"
 		properties: [
+			{
+				name: "analytics_client_id"
+				type: "string"
+			}
+			{
+				name: "analytics_opt_out"
+				type: "bool"
+			}
 			{
 				name: "default_camera"
 				type: "subobject"
 				type_hash: "41418a36f804f101"
+			}
+			{
+				name: "network_settings"
+				type: "subobject"
+				type_hash: "395cfd1a7615a887"
+			}
+			{
+				name: "grid_settings"
+				type: "subobject"
+				type_hash: "8547d86433b5494c"
 			}
 			{
 				name: "window_layouts"
@@ -390,7 +600,91 @@
 				type: "subobject_set"
 				type_hash: "ba4e5d5c28639596"
 			}
+			{
+				name: "interface_settings"
+				type: "subobject"
+				type_hash: "d2e5a5bb1c32c070"
+			}
+			{
+				name: "localization_settings"
+				type: "subobject"
+				type_hash: "a9afaf1feec8f7aa"
+			}
+			{
+				name: "keyboard_shortcuts"
+				type: "subobject"
+				type_hash: "7d4a95b2fa144d88"
+			}
+			{
+				name: "ui_themes"
+				type: "subobject_set"
+				type_hash: "2068b64b38668594"
+			}
+			{
+				name: "ui_theme"
+				type: "reference"
+				type_hash: "2068b64b38668594"
+			}
+			{
+				name: "builtin_ui_theme"
+				type: "uint32_t"
+			}
+			{
+				name: "workspaces_bar_mode"
+				type: "uint32_t"
+			}
+			{
+				name: "projects_settings"
+				type: "subobject_set"
+				type_hash: "e1defaa0c3c62d2d"
+			}
+			{
+				name: "updates"
+				type: "subobject"
+				type_hash: "867afcc63ad63fa6"
+			}
+			{
+				name: "downloads"
+				type: "subobject_set"
+				type_hash: "d439dc6a9ccfe53b"
+			}
+			{
+				name: "last_opened_project"
+				type: "string"
+			}
+			{
+				name: "docking_settings"
+				type: "subobject"
+				type_hash: "bdd017ae48779b30"
+			}
+			{
+				name: "project_management"
+				type: "subobject"
+				type_hash: "8b8a016cc0d8f90f"
+			}
+			{
+				name: "security"
+				type: "subobject"
+				type_hash: "b0a29343c40c021f"
+			}
+			{
+				name: "plugins_settings"
+				type: "subobject"
+				type_hash: "93691adbe6989919"
+			}
 		]
+		default: {
+			network_settings: {
+			}
+			window_layouts: {
+			}
+			interface_settings: {
+			}
+			project_management: {
+			}
+			security: {
+			}
+		}
 	}
 	{
 		name: "tm_application_settings__download"
@@ -1271,7 +1565,7 @@
 				type: "float"
 			}
 			{
-				name: "vertical_fov_or_box_height"
+				name: "vertical_fov__box_height__focal_length"
 				type: "float"
 			}
 			{
@@ -1286,14 +1580,28 @@
 				name: "iso"
 				type: "float"
 			}
+			{
+				name: "sensor_size"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
+			}
+			{
+				name: "focus_distance"
+				type: "float"
+			}
 		]
 		default: {
 			near_plane: 0.1000000014901161
 			far_plane: 10000
-			vertical_fov_or_box_height: 1.396263360977173
+			vertical_fov__box_height__focal_length: 1.396263360977173
 			shutter_speed: 100
 			aperture: 4
 			iso: 100
+			sensor_size: {
+				x: 36
+				y: 24
+			}
+			focus_distance: 4
 		}
 	}
 	{
@@ -1309,6 +1617,87 @@
 				type: "bool"
 			}
 		]
+	}
+	{
+		name: "tm_clouds_component"
+		properties: [
+			{
+				name: "low_frequency_3d_noise"
+				type: "reference"
+				type_hash: "c5f12f23d4534d76"
+			}
+			{
+				name: "high_frequency_3d_noise"
+				type: "reference"
+				type_hash: "c5f12f23d4534d76"
+			}
+			{
+				name: "weather_map"
+				type: "reference"
+				type_hash: "c5f12f23d4534d76"
+			}
+			{
+				name: "low_freq_noise_scale"
+				type: "float"
+			}
+			{
+				name: "high_freq_noise_scale"
+				type: "float"
+			}
+			{
+				name: "global_coverage"
+				type: "float"
+			}
+			{
+				name: "global_density"
+				type: "float"
+			}
+			{
+				name: "min_altitude"
+				type: "float"
+			}
+			{
+				name: "max_altitude"
+				type: "float"
+			}
+			{
+				name: "scattering"
+				type: "float"
+			}
+			{
+				name: "extinction"
+				type: "float"
+			}
+			{
+				name: "silver_intensity"
+				type: "float"
+			}
+			{
+				name: "silver_spread"
+				type: "float"
+			}
+			{
+				name: "phase_g"
+				type: "float"
+			}
+			{
+				name: "full_resolution"
+				type: "bool"
+			}
+		]
+		default: {
+			low_freq_noise_scale: 10
+			high_freq_noise_scale: 10
+			global_coverage: 1
+			global_density: 1
+			min_altitude: 2
+			max_altitude: 10
+			scattering: 5
+			extinction: 1
+			silver_intensity: 0.5
+			silver_spread: 0.5
+			phase_g: 0.6000000238418579
+		}
 	}
 	{
 		name: "tm_color_rgb"
@@ -1360,6 +1749,19 @@
 		}
 	}
 	{
+		name: "tm_color_scopes_tab_settings"
+		properties: [
+			{
+				name: "type"
+				type: "uint32_t"
+			}
+			{
+				name: "brightness"
+				type: "float"
+			}
+		]
+	}
+	{
 		name: "tm_color_space"
 		properties: [
 			{
@@ -1406,6 +1808,101 @@
 			{
 				name: "auto_transfer"
 				type: "bool"
+			}
+		]
+	}
+	{
+		name: "tm_component_property_any"
+		properties: [
+			{
+				name: "property"
+				type: "string"
+			}
+			{
+				name: "ref_asset"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+			{
+				name: "ref_child"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+		]
+	}
+	{
+		name: "tm_component_property_float"
+		properties: [
+			{
+				name: "property"
+				type: "string"
+			}
+			{
+				name: "ref_asset"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+			{
+				name: "ref_child"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+		]
+	}
+	{
+		name: "tm_component_property_vec2"
+		properties: [
+			{
+				name: "property"
+				type: "string"
+			}
+			{
+				name: "ref_asset"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+			{
+				name: "ref_child"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+		]
+	}
+	{
+		name: "tm_component_property_vec3"
+		properties: [
+			{
+				name: "property"
+				type: "string"
+			}
+			{
+				name: "ref_asset"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+			{
+				name: "ref_child"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+		]
+	}
+	{
+		name: "tm_component_property_vec4"
+		properties: [
+			{
+				name: "property"
+				type: "string"
+			}
+			{
+				name: "ref_asset"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
+			}
+			{
+				name: "ref_child"
+				type: "reference"
+				type_hash: "ff156da2e01c4a3d"
 			}
 		]
 	}
@@ -1517,6 +2014,10 @@
 			}
 			{
 				name: "version"
+				type: "uint64_t"
+			}
+			{
+				name: "skipped_version"
 				type: "uint64_t"
 			}
 		]
@@ -2477,11 +2978,6 @@
 				type_hash: "6afaa9f50456cb1b"
 			}
 			{
-				name: "entity"
-				type: "reference"
-				type_hash: "ca71127abbb72960"
-			}
-			{
 				name: "source_import_settings"
 				type: "subobject"
 				type_hash: "547ea358e1329c8c"
@@ -2600,7 +3096,15 @@
 				type: "bool"
 			}
 			{
+				name: "merge_images"
+				type: "bool"
+			}
+			{
 				name: "extract_materials"
+				type: "bool"
+			}
+			{
+				name: "merge_materials"
 				type: "bool"
 			}
 			{
@@ -2681,6 +3185,38 @@
 				type: "subobject"
 				type_hash: "d0c8704d11c0c0f1"
 			}
+			{
+				name: "saturation"
+				type: "float"
+			}
+			{
+				name: "tonemapper"
+				type: "uint32_t"
+			}
+			{
+				name: "toe strength"
+				type: "float"
+			}
+			{
+				name: "toe length"
+				type: "float"
+			}
+			{
+				name: "shoulder strength"
+				type: "float"
+			}
+			{
+				name: "shoulder length"
+				type: "float"
+			}
+			{
+				name: "shoulder angle"
+				type: "float"
+			}
+			{
+				name: "gamma"
+				type: "float"
+			}
 		]
 		default: {
 			enabled: true
@@ -2693,12 +3229,47 @@
 			}
 			slope: {
 			}
+			saturation: 1
+			tonemapper: 1
+			"toe strength": 0.5
+			"toe length": 0.5
+			"shoulder strength": 2
+			"shoulder length": 0.5
+			"shoulder angle": 1
+			gamma: 1
 		}
 	}
 	{
 		name: "tm_default_render_pipe_color_scopes"
 		properties: [
 		]
+	}
+	{
+		name: "tm_default_render_pipe_debug_visualizations"
+		properties: [
+		]
+	}
+	{
+		name: "tm_default_render_pipe_depth_of_field"
+		properties: [
+			{
+				name: "enabled"
+				type: "bool"
+			}
+			{
+				name: "num_gather_rings"
+				type: "uint32_t"
+			}
+			{
+				name: "num_mip_levels"
+				type: "uint32_t"
+			}
+		]
+		default: {
+			enabled: true
+			num_gather_rings: 4
+			num_mip_levels: 4
+		}
 	}
 	{
 		name: "tm_default_render_pipe_exposure_component"
@@ -2918,6 +3489,43 @@
 		}
 	}
 	{
+		name: "tm_default_render_pipe_ssr_component"
+		properties: [
+			{
+				name: "enabled"
+				type: "bool"
+			}
+			{
+				name: "depth_thickness"
+				type: "float"
+			}
+			{
+				name: "brdf_bias"
+				type: "float"
+			}
+			{
+				name: "edge_fade"
+				type: "float"
+			}
+			{
+				name: "min_iterations"
+				type: "uint32_t"
+			}
+			{
+				name: "max_iterations"
+				type: "uint32_t"
+			}
+		]
+		default: {
+			enabled: true
+			depth_thickness: 1
+			brdf_bias: 0.4000000059604645
+			edge_fade: 0.1500000059604645
+			min_iterations: 12
+			max_iterations: 64
+		}
+	}
+	{
 		name: "tm_default_render_pipe_volume_component"
 		properties: [
 			{
@@ -2956,6 +3564,23 @@
 				y: 0.5
 				z: 0.5
 			}
+		}
+	}
+	{
+		name: "tm_default_render_pipeline_settings"
+		properties: [
+			{
+				name: "taa_enabled"
+				type: "bool"
+			}
+			{
+				name: "taa_gamma"
+				type: "float"
+			}
+		]
+		default: {
+			taa_enabled: true
+			taa_gamma: 1
 		}
 	}
 	{
@@ -3064,6 +3689,27 @@
 				interface: {
 				}
 			}
+		}
+	}
+	{
+		name: "tm_entity_property_easing"
+		properties: [
+			{
+				name: "easing"
+				type: "uint32_t"
+			}
+		]
+	}
+	{
+		name: "tm_entity_property_loop_type"
+		properties: [
+			{
+				name: "loop_type"
+				type: "uint32_t"
+			}
+		]
+		default: {
+			loop_type: 1
 		}
 	}
 	{
@@ -3193,6 +3839,15 @@
 		]
 	}
 	{
+		name: "tm_global_graph_settings"
+		properties: [
+			{
+				name: "enable_snapping"
+				type: "bool"
+			}
+		]
+	}
+	{
 		name: "tm_gpu_image_create_settings"
 		properties: [
 			{
@@ -3315,10 +3970,15 @@
 				type: "subobject"
 				type_hash: "d8d2adf4ea2129be"
 			}
+			{
+				name: "grid_size"
+				type: "float"
+			}
 		]
 		default: {
 			interface: {
 			}
+			grid_size: 30
 		}
 	}
 	{
@@ -3356,13 +4016,29 @@
 				type: "float"
 			}
 			{
+				name: "width"
+				type: "float"
+			}
+			{
+				name: "height"
+				type: "float"
+			}
+			{
 				name: "font_scale"
 				type: "float"
 			}
 			{
-				name: "color"
+				name: "override_color"
+				type: "bool"
+			}
+			{
+				name: "tint_color"
 				type: "subobject"
-				type_hash: "d0c8704d11c0c0f1"
+				type_hash: "11e53fa0440a07e4"
+			}
+			{
+				name: "label_only"
+				type: "bool"
 			}
 		]
 	}
@@ -3629,14 +4305,6 @@
 				type: "float"
 			}
 			{
-				name: "grid_snapping"
-				type: "bool"
-			}
-			{
-				name: "grid_size"
-				type: "float"
-			}
-			{
 				name: "debug_watch_wire_overlay_mode"
 				type: "uint32_t"
 			}
@@ -3656,7 +4324,6 @@
 			}
 		]
 		default: {
-			grid_size: 30
 			debug_watch_wire_overlay_mode: 5
 			show_removed_inherited: true
 		}
@@ -3921,6 +4588,32 @@
 		]
 	}
 	{
+		name: "tm_interface_settings"
+		properties: [
+			{
+				name: "resolution_scale"
+				type: "float"
+			}
+			{
+				name: "wheel_scroll_lines"
+				type: "float"
+			}
+			{
+				name: "color_blind_mode"
+				type: "bool"
+			}
+			{
+				name: "throttle_in_background"
+				type: "bool"
+			}
+		]
+		default: {
+			resolution_scale: 1
+			wheel_scroll_lines: 1
+			throttle_in_background: true
+		}
+	}
+	{
 		name: "tm_keyboard_item"
 		properties: [
 			{
@@ -3928,6 +4621,23 @@
 				type: "uint32_t"
 			}
 		]
+	}
+	{
+		name: "tm_lighting_system_settings"
+		properties: [
+			{
+				name: "skydome_color"
+				type: "subobject"
+				type_hash: "11e53fa0440a07e4"
+			}
+		]
+		default: {
+			skydome_color: {
+				r: 0.1500000059604645
+				g: 0.1500000059604645
+				b: 0.1500000059604645
+			}
+		}
 	}
 	{
 		name: "tm_link_component"
@@ -3962,6 +4672,35 @@
 				type_hash: "ff156da2e01c4a3d"
 			}
 		]
+	}
+	{
+		name: "tm_localization_settings"
+		properties: [
+			{
+				name: "microsoft_cache"
+				type: "subobject"
+				type_hash: "dd1c5c1d57e9ab71"
+			}
+			{
+				name: "google_cache"
+				type: "subobject"
+				type_hash: "dd1c5c1d57e9ab71"
+			}
+			{
+				name: "language"
+				type: "string"
+			}
+			{
+				name: "google"
+				type: "bool"
+			}
+			{
+				name: "microsoft"
+				type: "bool"
+			}
+		]
+		default: {
+		}
 	}
 	{
 		name: "tm_lod_settings"
@@ -4095,14 +4834,28 @@
 				type_hash: "73e8309bad5667f0"
 			}
 			{
-				name: "send updates to"
+				name: "object validators"
 				type: "subobject_set"
-				type_hash: "dc2b19c4af5e7e5c"
+				type_hash: "bc67fe618d07fdfa"
 			}
 			{
-				name: "graph events to transmit"
+				name: "struct validators"
 				type: "subobject_set"
-				type_hash: "3658ceff2ca147ae"
+				type_hash: "523bbbc53da16e36"
+			}
+			{
+				name: "member validators"
+				type: "subobject_set"
+				type_hash: "c7b42f994600fe8d"
+			}
+			{
+				name: "passive gamestate"
+				type: "bool"
+			}
+			{
+				name: "forced automatic replication"
+				type: "subobject_set"
+				type_hash: "68fc0bd2ff878a68"
 			}
 		]
 	}
@@ -4152,6 +4905,19 @@
 		]
 	}
 	{
+		name: "tm_network_node_forced_component_automatic_replication"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "timer"
+				type: "float"
+			}
+		]
+	}
+	{
 		name: "tm_network_node_graph_event_to_transmit"
 		properties: [
 			{
@@ -4180,13 +4946,43 @@
 				type: "bool"
 			}
 			{
-				name: "empty world"
-				type: "bool"
+				name: "download bandwidth"
+				type: "uint32_t"
+			}
+			{
+				name: "upload bandwidth"
+				type: "uint32_t"
+			}
+			{
+				name: "min latency ms"
+				type: "double"
+			}
+			{
+				name: "max latency ms"
+				type: "double"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_member_validator"
+		properties: [
+			{
+				name: "name"
+				type: "string"
 			}
 		]
 	}
 	{
 		name: "tm_network_node_not_responding_handler"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_object_validator"
 		properties: [
 			{
 				name: "name"
@@ -4209,6 +5005,25 @@
 			{
 				name: "name"
 				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_node_struct_validator"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+		]
+	}
+	{
+		name: "tm_network_settings"
+		properties: [
+			{
+				name: "instances"
+				type: "subobject_set"
+				type_hash: "62cbfcc2497d86c7"
 			}
 		]
 	}
@@ -4258,6 +5073,10 @@
 			{
 				name: "enable_ccd"
 				type: "bool"
+			}
+			{
+				name: "lock_axis_flags"
+				type: "uint32_t"
 			}
 		]
 		default: {
@@ -4467,6 +5286,10 @@
 				name: "collision"
 				type: "reference"
 				type_hash: "a7877788271e981c"
+			}
+			{
+				name: "disable gravity"
+				type: "bool"
 			}
 		]
 		default: {
@@ -4793,6 +5616,74 @@
 		]
 	}
 	{
+		name: "tm_project_management_settings"
+		properties: [
+			{
+				name: "open_empty_project_on_startup"
+				type: "bool"
+			}
+			{
+				name: "always_open_default_project_window"
+				type: "bool"
+			}
+		]
+	}
+	{
+		name: "tm_project_settings"
+		properties: [
+			{
+				name: "path"
+				type: "string"
+			}
+			{
+				name: "global_graph_settings"
+				type: "subobject"
+				type_hash: "76c65d9a4da0f2f5"
+			}
+			{
+				name: "graphs_settings"
+				type: "subobject_set"
+				type_hash: "9aad7ddbce2c307e"
+			}
+			{
+				name: "scenes_settings"
+				type: "subobject_set"
+				type_hash: "148cf337633e02c5"
+			}
+			{
+				name: "publish_settings"
+				type: "subobject"
+				type_hash: "8eebe36bc038a3cc"
+			}
+			{
+				name: "window_layout"
+				type: "subobject_set"
+				type_hash: "1f1ea8c1548bab03"
+			}
+			{
+				name: "graph_debugger_persistent_settings"
+				type: "subobject"
+				type_hash: "74079da6d852b357"
+			}
+			{
+				name: "plugins_settings"
+				type: "subobject"
+				type_hash: "93691adbe6989919"
+			}
+		]
+		default: {
+			publish_settings: {
+				executable_name: ""
+				window_title: ""
+				world_entity: ""
+				resolution: {
+					x: 1920
+					y: 1080
+				}
+			}
+		}
+	}
+	{
 		name: "tm_properties_settings"
 		properties: [
 			{
@@ -4800,6 +5691,40 @@
 				type: "uint64_t"
 			}
 		]
+	}
+	{
+		name: "tm_publish_settings"
+		properties: [
+			{
+				name: "directory_project"
+				type: "bool"
+			}
+			{
+				name: "executable_name"
+				type: "string"
+			}
+			{
+				name: "window_title"
+				type: "string"
+			}
+			{
+				name: "world_entity"
+				type: "string"
+			}
+			{
+				name: "resolution"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
+			}
+			{
+				name: "fullscreen"
+				type: "bool"
+			}
+		]
+		default: {
+			resolution: {
+			}
+		}
 	}
 	{
 		name: "tm_ray_tracing_debug"
@@ -5119,31 +6044,7 @@
 		name: "tm_scene_tab_settings"
 		properties: [
 			{
-				name: "use_world_axes"
-				type: "bool"
-			}
-			{
-				name: "multi_select_pivot"
-				type: "uint32_t"
-			}
-			{
-				name: "move_snap"
-				type: "bool"
-			}
-			{
-				name: "move_snap_size"
-				type: "float"
-			}
-			{
-				name: "rotation_snap"
-				type: "bool"
-			}
-			{
-				name: "rotation_snap_angle"
-				type: "float"
-			}
-			{
-				name: "scaling_absolute_handle"
+				name: "native_resolution"
 				type: "bool"
 			}
 		]
@@ -5266,6 +6167,38 @@
 				type: "uint32_t"
 			}
 		]
+	}
+	{
+		name: "tm_settings"
+		properties: [
+			{
+				name: "audio_settings"
+				type: "subobject_set"
+				type_hash: "8944e0b1cefd4756"
+			}
+			{
+				name: "editor_settings"
+				type: "subobject_set"
+				type_hash: "8944e0b1cefd4756"
+			}
+			{
+				name: "physics_settings"
+				type: "subobject_set"
+				type_hash: "8944e0b1cefd4756"
+			}
+			{
+				name: "graphics_settings"
+				type: "subobject_set"
+				type_hash: "8944e0b1cefd4756"
+			}
+			{
+				name: "misc_settings"
+				type: "subobject_set"
+				type_hash: "8944e0b1cefd4756"
+			}
+		]
+		default: {
+		}
 	}
 	{
 		name: "tm_shader_system_blob"
@@ -5721,11 +6654,19 @@
 				type: "uint32_t"
 			}
 			{
-				name: "functioon_code"
+				name: "function_code"
 				type: "string"
 			}
 			{
-				name: "functioon_code_line_number"
+				name: "function_code_line_number"
+				type: "uint32_t"
+			}
+			{
+				name: "hull_stage_patch"
+				type: "string"
+			}
+			{
+				name: "hull_stage_patch_line_number"
 				type: "uint32_t"
 			}
 			{
@@ -5782,14 +6723,6 @@
 				name: "intersection_stage"
 				type: "subobject"
 				type_hash: "585f51410d1cb18f"
-			}
-			{
-				name: "hull_stage_patch"
-				type: "string"
-			}
-			{
-				name: "hull_stage_patch_line_number"
-				type: "uint32_t"
 			}
 		]
 	}
@@ -6051,12 +6984,36 @@
 		]
 	}
 	{
+		name: "tm_simulate_tab_settings"
+		properties: [
+			{
+				name: "native_resolution"
+				type: "bool"
+			}
+		]
+	}
+	{
 		name: "tm_simulation_entry_component"
 		properties: [
 			{
 				name: "ids"
 				type: "subobject_set"
 				type_hash: "b11aa2e510ce635e"
+			}
+			{
+				name: "settings"
+				type: "subobject_set"
+				type_hash: "629dde0cd00b54c8"
+			}
+		]
+	}
+	{
+		name: "tm_simulation_entry_settings"
+		properties: [
+			{
+				name: "settings"
+				type: "subobject"
+				type_hash: "8944e0b1cefd4756"
 			}
 		]
 	}
@@ -6252,8 +7209,30 @@
 				type: "string"
 			}
 			{
+				name: "root_uuid"
+				type: "subobject"
+				type_hash: "63d44d07a8f8ea75"
+			}
+			{
+				name: "root_type"
+				type: "uint64_t"
+			}
+			{
 				name: "sort_index"
 				type: "float"
+			}
+			{
+				name: "settings_view"
+				type: "bool"
+			}
+			{
+				name: "pinned"
+				type: "bool"
+			}
+			{
+				name: "settings_state"
+				type: "subobject"
+				type_hash: "8944e0b1cefd4756"
 			}
 		]
 	}
@@ -6464,6 +7443,44 @@
 		]
 	}
 	{
+		name: "tm_ui_box_container_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "reference_size"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			layout: {
+			}
+			reference_size: {
+				x: 100
+				y: 100
+			}
+		}
+	}
+	{
 		name: "tm_ui_button_component"
 		properties: [
 			{
@@ -6577,8 +7594,8 @@
 				type_hash: "5ea1bb7b6537de46"
 			}
 			{
-				name: "keep_aspect_ratio"
-				type: "bool"
+				name: "aspect_ratio_mode"
+				type: "uint32_t"
 			}
 			{
 				name: "virtual_rect"
@@ -6622,8 +7639,56 @@
 				h: 100
 			}
 			pixels_per_meter: 256
-			input_disabled: true
 			font_size: 9
+		}
+	}
+	{
+		name: "tm_ui_checkbox_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "style"
+				type: "subobject"
+				type_hash: "addbef93e740abf2"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "text"
+				type: "string"
+			}
+			{
+				name: "tooltip"
+				type: "string"
+			}
+			{
+				name: "is_disabled"
+				type: "bool"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			style: {
+			}
+			layout: {
+			}
+			text: "text"
 		}
 	}
 	{
@@ -7318,6 +8383,7 @@
 					h: 10
 				}
 				text: "label"
+				tooltip: ""
 			}
 		}
 	}
@@ -7332,6 +8398,11 @@
 			{
 				name: "z_depth"
 				type: "float"
+			}
+			{
+				name: "reference_size"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
 			}
 			{
 				name: "rows"
@@ -7349,8 +8420,100 @@
 				w: 100
 				h: 100
 			}
+			reference_size: {
+				x: 100
+				y: 100
+			}
 			rows: 1
 			columns: 1
+		}
+	}
+	{
+		name: "tm_ui_hsplitter_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "reference_size"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "splitter_width"
+				type: "float"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			reference_size: {
+				x: 100
+				y: 100
+			}
+			layout: {
+			}
+			splitter_width: 5
+		}
+	}
+	{
+		name: "tm_ui_label_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "style"
+				type: "subobject"
+				type_hash: "addbef93e740abf2"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "text"
+				type: "string"
+			}
+			{
+				name: "tooltip"
+				type: "string"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			style: {
+			}
+			layout: {
+			}
+			text: "label"
 		}
 	}
 	{
@@ -7406,6 +8569,55 @@
 		}
 	}
 	{
+		name: "tm_ui_radio_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "style"
+				type: "subobject"
+				type_hash: "addbef93e740abf2"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "text"
+				type: "string"
+			}
+			{
+				name: "tooltip"
+				type: "string"
+			}
+			{
+				name: "is_disabled"
+				type: "bool"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			style: {
+			}
+			layout: {
+			}
+			text: "text"
+		}
+	}
+	{
 		name: "tm_ui_rect_component"
 		properties: [
 			{
@@ -7416,6 +8628,16 @@
 			{
 				name: "z_depth"
 				type: "float"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "background_texture"
+				type: "subobject"
+				type_hash: "a4bf771c92f7b3b7"
 			}
 			{
 				name: "background_color"
@@ -7446,6 +8668,14 @@
 				y: 45
 				w: 100
 				h: 100
+			}
+			layout: {
+			}
+			background_texture: {
+				uv: {
+					w: 1
+					h: 1
+				}
 			}
 			background_color: {
 			}
@@ -7490,6 +8720,11 @@
 				type_hash: "addbef93e740abf2"
 			}
 			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
 				name: "align"
 				type: "uint32_t"
 			}
@@ -7519,6 +8754,8 @@
 				h: 100
 			}
 			style: {
+			}
+			layout: {
 			}
 			text: "text"
 			color: {
@@ -7595,6 +8832,49 @@
 		]
 	}
 	{
+		name: "tm_ui_vsplitter_component"
+		properties: [
+			{
+				name: "rect"
+				type: "subobject"
+				type_hash: "a6e9c5f4ec093df1"
+			}
+			{
+				name: "z_depth"
+				type: "float"
+			}
+			{
+				name: "reference_size"
+				type: "subobject"
+				type_hash: "5ea1bb7b6537de46"
+			}
+			{
+				name: "layout"
+				type: "subobject"
+				type_hash: "38fb4684ad46aba1"
+			}
+			{
+				name: "splitter_height"
+				type: "float"
+			}
+		]
+		default: {
+			rect: {
+				x: 45
+				y: 45
+				w: 100
+				h: 100
+			}
+			reference_size: {
+				x: 100
+				y: 100
+			}
+			layout: {
+			}
+			splitter_height: 5
+		}
+	}
+	{
 		name: "tm_uint32_t"
 		properties: [
 			{
@@ -7608,6 +8888,19 @@
 		properties: [
 			{
 				name: "uint64_t"
+				type: "uint64_t"
+			}
+		]
+	}
+	{
+		name: "tm_uuid_t"
+		properties: [
+			{
+				name: "a"
+				type: "uint64_t"
+			}
+			{
+				name: "b"
 				type: "uint64_t"
 			}
 		]
@@ -7916,8 +9209,8 @@
 				type: "string"
 			}
 			{
-				name: "create_on_startup"
-				type: "bool"
+				name: "icon"
+				type: "uint32_t"
 			}
 			{
 				name: "window_x"
@@ -7936,9 +9229,18 @@
 				type: "float"
 			}
 			{
+				name: "maximized"
+				type: "bool"
+			}
+			{
 				name: "tabwell"
 				type: "subobject"
 				type_hash: "a1953ee0036f73e1"
+			}
+			{
+				name: "workspaces"
+				type: "subobject_set"
+				type_hash: "cdcdce9f19a8aef1"
 			}
 		]
 	}
@@ -7949,6 +9251,24 @@
 				name: "layouts"
 				type: "subobject_set"
 				type_hash: "1f1ea8c1548bab03"
+			}
+		]
+	}
+	{
+		name: "tm_workspace"
+		properties: [
+			{
+				name: "name"
+				type: "string"
+			}
+			{
+				name: "icon"
+				type: "uint32_t"
+			}
+			{
+				name: "tabwell"
+				type: "subobject"
+				type_hash: "a1953ee0036f73e1"
 			}
 		]
 	}

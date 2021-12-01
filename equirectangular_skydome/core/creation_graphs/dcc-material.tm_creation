@@ -28,8 +28,8 @@ graph: {
 		{
 			__uuid: "3fa2f153-7bcb-40a9-5bc3-c1fd92597175"
 			type: "shader_sample_2d"
-			position_x: -334.7907409667969
-			position_y: -430.1407775878906
+			position_x: -397.5807495117188
+			position_y: -563.19580078125
 		}
 		{
 			__uuid: "57650b9b-14c4-a884-3993-4035ed0ba5b7"
@@ -46,140 +46,140 @@ graph: {
 		{
 			__uuid: "a1fab9df-3a7d-f2d8-dde7-3977746e0a7c"
 			type: "tm_input_set_default_node"
-			position_x: -698.9217529296875
-			position_y: -409.9395751953125
+			position_x: -761.7118530273438
+			position_y: -542.99462890625
 		}
 		{
 			__uuid: "62f31ffc-589d-bb28-7191-b379da4b217a"
 			type: "shader_variable_node"
-			position_x: -334.6664428710938
-			position_y: -519.8956909179688
+			position_x: -397.4564819335938
+			position_y: -652.9507446289063
 		}
 		{
 			__uuid: "be7fe309-1b0f-032e-2e14-de9e5007535c"
 			type: "tm_input_set_default_node"
-			position_x: -521.5523681640625
-			position_y: -519.5887451171875
+			position_x: -584.3424682617188
+			position_y: -652.643798828125
 		}
 		{
 			__uuid: "b8858959-ff6c-946b-ad49-dbc832b5407d"
 			type: "shader_mul"
-			position_x: -156.8845520019531
-			position_y: -445.1387329101563
+			position_x: -219.6746063232422
+			position_y: -578.1937866210938
 		}
 		{
 			__uuid: "37812eeb-67de-359b-bf8b-1aa71d5d17b9"
 			type: "creation_graph_import"
-			position_x: -525.06982421875
-			position_y: -241.6819000244141
+			position_x: -483.2038879394531
+			position_y: -292.8605651855469
 		}
 		{
 			__uuid: "6d288d33-083b-6d88-cbdb-ac707b16dbaf"
 			type: "shader_sample_2d"
-			position_x: -335.9702453613281
-			position_y: -241.9229125976563
+			position_x: -294.1042785644531
+			position_y: -293.1015930175781
 		}
 		{
 			__uuid: "bae22883-9e8f-75f5-3001-62333cd64982"
 			type: "shader_tspace_to_wspace"
-			position_x: -142.3339691162109
-			position_y: -243.4212036132813
+			position_x: -100.4680023193359
+			position_y: -294.5998840332031
 		}
 		{
 			__uuid: "c5fe1bd6-5064-f656-c9f3-c31162e8fc65"
 			type: "shader_compile_option"
-			position_x: 36.6660270690918
-			position_y: -243.7210998535156
+			position_x: 78.53199768066406
+			position_y: -294.8997802734375
 		}
 		{
 			__uuid: "82593802-0749-27b5-aac5-21216b83295d"
 			type: "shader_input_normal"
-			position_x: -142.0600738525391
-			position_y: -159.7547912597656
+			position_x: -100.1941070556641
+			position_y: -210.9334716796875
 		}
 		{
 			__uuid: "11345113-6ef0-78ba-ea16-e104002e5c81"
 			type: "creation_graph_import"
-			position_x: -699.2025146484375
-			position_y: -53.76492309570313
+			position_x: -634.575439453125
+			position_y: -30.88407516479492
 		}
 		{
 			__uuid: "53864fd3-6951-28b9-1e17-62d3c39fbe74"
 			type: "shader_sample_2d"
-			position_x: -510.2132873535156
-			position_y: -49.63370895385742
+			position_x: -445.5864562988281
+			position_y: -26.75286102294922
 		}
 		{
 			__uuid: "6f7df7d4-dd5c-25ac-976c-12a20a80e634"
 			type: "tm_input_set_default_node"
-			position_x: -710.8560791015625
-			position_y: -243.6175842285156
+			position_x: -668.9901733398438
+			position_y: -294.7962646484375
 		}
 		{
 			__uuid: "0f7c0fec-42c2-4746-dfcd-d20ede838212"
 			type: "tm_input_set_default_node"
-			position_x: -329.4440307617188
-			position_y: -49.52604675292969
+			position_x: -264.8171997070313
+			position_y: -26.64519882202148
 		}
 		{
 			__uuid: "1de5064d-7525-29f9-b496-1e38375ec6fe"
 			type: "shader_variable_node"
-			position_x: -152.1211090087891
-			position_y: -50.49063110351563
+			position_x: -87.49427795410156
+			position_y: -27.60978317260742
 		}
 		{
 			__uuid: "4798fc75-e469-4955-8cac-9d8bcdf5ec92"
 			type: "shader_variable_node"
-			position_x: -151.1948699951172
-			position_y: 164.0762329101563
+			position_x: -86.56803894042969
+			position_y: 186.9570922851563
 		}
 		{
 			__uuid: "2fe13033-7ef4-9343-2e1c-3d12dc405f65"
 			type: "shader_mul"
-			position_x: 34.3809700012207
-			position_y: -50.03508377075195
+			position_x: 99.00779724121094
+			position_y: -27.15423583984375
 		}
 		{
 			__uuid: "a82c4228-755d-91fb-cacd-dbc86360bf5a"
 			type: "shader_mul"
-			position_x: 34.41579055786133
-			position_y: 38.31661987304688
+			position_x: 99.04261779785156
+			position_y: 61.19746780395508
 		}
 		{
 			__uuid: "833e5911-4e08-c01f-21f3-ba0e903cf902"
 			type: "shader_compile_option"
-			position_x: -325.0924682617188
-			position_y: 47.52412414550781
+			position_x: -260.4656372070313
+			position_y: 70.40496826171875
 		}
 		{
 			__uuid: "c99ae3cc-61ef-14da-0e26-884777dcf0e1"
 			type: "shader_constant"
-			position_x: -697.7508544921875
-			position_y: 24.70129203796387
+			position_x: -633.123779296875
+			position_y: 47.5821418762207
 		}
 		{
 			__uuid: "5679b82c-1398-5e05-eda3-4e0b87806d6b"
 			type: "shader_deconstruct_float4"
-			position_x: -150.2588500976563
-			position_y: 38.41935729980469
+			position_x: -85.63201904296875
+			position_y: 61.30020523071289
 		}
 		{
 			__uuid: "c9d08516-ba6d-15e1-c665-8326dd80d61f"
 			type: "creation_graph_import"
-			position_x: -521.0610961914063
-			position_y: -408.0798034667969
+			position_x: -583.8511352539063
+			position_y: -541.1348876953125
 		}
 		{
 			__uuid: "87191b56-4699-1817-c505-81ac3e578fad"
 			type: "tm_input_set_default_node"
-			position_x: -325.6557006835938
-			position_y: 158.11376953125
+			position_x: -261.0288696289063
+			position_y: 180.99462890625
 		}
 		{
 			__uuid: "7dec0a93-070e-62b4-f76f-db8b10a1f8d7"
 			type: "tm_input_set_default_node"
-			position_x: -885.0108642578125
-			position_y: -56.67280960083008
+			position_x: -820.3837890625
+			position_y: -33.79196548461914
 		}
 		{
 			__uuid: "ce33670d-90ce-a0a4-4b2d-6a8d7ae5a0c6"
@@ -190,80 +190,80 @@ graph: {
 		{
 			__uuid: "eb836b5b-84e5-766e-eecb-00dca376ed10"
 			type: "shader_mul"
-			position_x: 33.80528259277344
-			position_y: -500.7008972167969
+			position_x: -28.98477172851563
+			position_y: -633.7559204101563
 		}
 		{
 			__uuid: "083c22f3-3fb1-70d3-3947-57e62a60460f"
 			type: "shader_input_vertex_color"
-			position_x: -154.4767913818359
-			position_y: -516.3154296875
+			position_x: -217.266845703125
+			position_y: -649.3704833984375
 		}
 		{
 			__uuid: "3191bad5-2dfa-9784-4e2a-94f4cf3d831b"
 			type: "creation_graph_import"
-			position_x: -718.2939453125
-			position_y: 374.1438598632813
+			position_x: -738.2451171875
+			position_y: 469.4849548339844
 		}
 		{
 			__uuid: "0685096f-9568-1afc-4fcb-1b3700a314a8"
 			type: "shader_sample_2d"
-			position_x: -504.9897155761719
-			position_y: 286.807861328125
+			position_x: -524.94091796875
+			position_y: 382.1489562988281
 		}
 		{
 			__uuid: "7996f599-0ad6-3606-078c-935b65619df8"
 			type: "shader_compile_option"
-			position_x: -145.4049530029297
-			position_y: 291.3650512695313
+			position_x: -165.3561401367188
+			position_y: 386.7061462402344
 		}
 		{
 			__uuid: "4d1f3849-0f89-9a62-cf99-80dd306b5fb8"
 			type: "shader_constant"
-			position_x: -332.3953857421875
-			position_y: 414.4834594726563
+			position_x: -352.3465881347656
+			position_y: 509.8245544433594
 		}
 		{
 			__uuid: "adae95bb-74dd-0503-9119-75b8c1b02f53"
 			type: "tm_input_set_default_node"
-			position_x: -904.1022338867188
-			position_y: 371.2359008789063
+			position_x: -924.0533447265625
+			position_y: 466.5769958496094
 		}
 		{
 			__uuid: "ad492735-72a3-9326-f68b-eafe5b687a9d"
 			type: "tm_input_set_default_node"
-			position_x: -718.0765991210938
-			position_y: 280.6483764648438
+			position_x: -738.0277099609375
+			position_y: 375.9894714355469
 		}
 		{
 			__uuid: "2db83461-6030-66a3-27bc-341e4014a4bb"
 			type: "shader_variable_node"
-			position_x: -147.8289184570313
-			position_y: 399.3432312011719
+			position_x: -167.7801055908203
+			position_y: 494.684326171875
 		}
 		{
 			__uuid: "8128dd7d-d3ae-2b6b-ccaa-aa909bff47af"
 			type: "shader_mul"
-			position_x: 38.68284225463867
-			position_y: 326.0067749023438
+			position_x: 18.73165512084961
+			position_y: 421.3478698730469
 		}
 		{
 			__uuid: "8f024811-3da3-e824-1b9c-f2f15ec3ae57"
 			type: "shader_compile_option"
-			position_x: 246.2788848876953
-			position_y: 293.0089721679688
+			position_x: 226.3276977539063
+			position_y: 388.3500671386719
 		}
 		{
 			__uuid: "0e7dbd13-fc3a-4af4-ded5-c22a5ba7fb69"
 			type: "shader_compile_option"
-			position_x: -144.9769134521484
-			position_y: 490.9383544921875
+			position_x: -164.9281005859375
+			position_y: 586.279541015625
 		}
 		{
 			__uuid: "2abe1dd0-b0e9-3f0f-a315-0b6a889b3dad"
 			type: "shader_construct_float3"
-			position_x: -332.1009826660156
-			position_y: 287.3609924316406
+			position_x: -352.0521545410156
+			position_y: 382.7020874023438
 		}
 	]
 	connections: [
@@ -1041,56 +1041,126 @@ graph: {
 				id: "input__graph_16169466096787828905__9"
 			}
 		}
+		{
+			__uuid: "36e28d1f-81a9-306f-e7d2-100dad1e78c6"
+			to_node: "1de5064d-7525-29f9-b496-1e38375ec6fe"
+			to_connector_hash: "d4c943cba60c270b"
+			data: {
+				__type: "tm_string"
+				__uuid: "2c6e6340-a210-cd85-85d3-201d02b682d5"
+				string: "Metallic"
+			}
+		}
+		{
+			__uuid: "523508a2-c2b6-601f-cdf0-5f0337382a63"
+			to_node: "4798fc75-e469-4955-8cac-9d8bcdf5ec92"
+			to_connector_hash: "d4c943cba60c270b"
+			data: {
+				__type: "tm_string"
+				__uuid: "f8d0a7ed-1e64-b41b-96c6-524abd139ea5"
+				string: "Roughness"
+			}
+		}
+		{
+			__uuid: "86e9b072-fc13-bd51-d61a-03dc2966fed7"
+			to_node: "62f31ffc-589d-bb28-7191-b379da4b217a"
+			to_connector_hash: "d4c943cba60c270b"
+			data: {
+				__type: "tm_string"
+				__uuid: "46efe458-9c7f-5e61-ffa3-665d6938098f"
+				string: "BaseColor"
+			}
+		}
+		{
+			__uuid: "6443bd3a-ce07-8acb-13fe-1acc4d82d25b"
+			to_node: "2db83461-6030-66a3-27bc-341e4014a4bb"
+			to_connector_hash: "d4c943cba60c270b"
+			data: {
+				__type: "tm_string"
+				__uuid: "864da744-c0dc-78ba-0caf-34fdd3ad66e8"
+				string: "Emissive"
+			}
+		}
 	]
 	comments: [
 		{
 			__uuid: "82a00f58-f8f4-5889-4e7c-07329c7a2808"
 			text: "Default uber-shader graph for materials extracted from a dcc_asset."
-			position_x: -699.6228637695313
-			position_y: -599.8549194335938
-			font_scale: 2
-			color: {
-				__uuid: "cae3d06f-6644-7497-23ce-1c5f31ecb321"
+			position_x: -1262.753173828125
+			position_y: -865.0451049804688
+			font_scale: 4
+			tint_color: {
+				__uuid: "92047118-9a94-3f1c-41e3-9c59cdace6a2"
+				a: 0.1176470592617989
 			}
+			label_only: true
 		}
 		{
 			__uuid: "f6fab812-8e72-e8e0-3987-eec00da95845"
-			text: "Base Color -->"
-			position_x: -393.6135559082031
-			position_y: -535.4906005859375
-			font_scale: 1.5
-			color: {
-				__uuid: "6b7e6e85-df35-eaa3-e342-cec04d0454df"
+			text: "Base Color"
+			position_x: -919.16357421875
+			position_y: -703.2904052734375
+			width: 1054.02587890625
+			height: 296.74658203125
+			font_scale: 2
+			override_color: true
+			tint_color: {
+				__uuid: "e467bbe8-e8dc-d879-0d2e-5344cdd8857a"
+				r: 0.1022417470812798
+				g: 0.3662526905536652
+				b: 0.09758736193180084
+				a: 0.1176470592617989
 			}
 		}
 		{
 			__uuid: "c0f7ec96-43c2-7def-8f94-26ec88055571"
-			text: "Normal -->"
-			position_x: -373.6685791015625
-			position_y: -254.9934997558594
-			font_scale: 1.5
-			color: {
-				__uuid: "bdd1b1ab-375d-80d2-a5db-e974f26303b9"
+			text: "Normal"
+			position_x: -800.952880859375
+			position_y: -352.0562744140625
+			width: 1008.542663574219
+			height: 220.0910491943359
+			font_scale: 2
+			override_color: true
+			tint_color: {
+				__uuid: "6c9adb56-354e-e607-6ae1-7de9f2157e8b"
+				r: 0.02028856240212917
+				g: 0.06847818195819855
+				b: 0.5583404898643494
+				a: 0.1176470592617989
 			}
 		}
 		{
 			__uuid: "cadcd958-1973-45b4-b8e1-615852438e41"
-			text: "Metallic / Roughness -->"
-			position_x: -422.8604431152344
-			position_y: -70.50555419921875
-			font_scale: 1.5
-			color: {
-				__uuid: "fc289eb3-02ed-3202-4b00-8c5f272aa87e"
+			text: "Metallic / Roughness"
+			position_x: -938.9476318359375
+			position_y: -87.02089691162109
+			width: 1157.256591796875
+			height: 376.2914123535156
+			font_scale: 2
+			override_color: true
+			tint_color: {
+				__uuid: "59cfe28e-74ba-f6ec-ef2b-05d59a1c6e2e"
+				r: 0.1529261618852615
+				g: 0.1529261618852615
+				b: 0.1529261618852615
+				a: 0.1176470592617989
 			}
 		}
 		{
 			__uuid: "50ed7a0a-1e78-d40f-e877-9a051dcb7235"
-			text: "Emissive -->"
-			position_x: -371.3670349121094
-			position_y: 275.909423828125
-			font_scale: 1.5
-			color: {
-				__uuid: "a4e409a4-2124-ad50-86bd-03c37cad7bd0"
+			text: "Emissive"
+			position_x: -1039.301635742188
+			position_y: 335.0107727050781
+			width: 1369.736206054688
+			height: 374.3301391601563
+			font_scale: 2
+			override_color: true
+			tint_color: {
+				__uuid: "3a053705-53cb-3208-40f3-c810828118b1"
+				r: 0.3762622177600861
+				g: 0.05780543386936188
+				b: 0.05780543386936188
+				a: 0.1176470592617989
 			}
 		}
 	]
@@ -1241,12 +1311,12 @@ graph: {
 			{
 				__uuid: "e104c843-70a9-86c9-5e7f-a63212c7a8fa"
 				node: "49cbc4af-8314-05fa-fabc-00884be0de7a"
-				validity_hash: "62c0ea701ad435a0"
+				validity_hash: "53dc5ddb582040e3"
 				object: {
 					__type: "tm_shader_system_compiled_result"
-					__uuid: "2993b96e-ed18-4a2f-7551-65f4964d7322"
-					name: "62c0ea701ad435a0"
-					buffer: "a67a690477145e57"
+					__uuid: "6862404f-1d5c-add8-ac6e-89fa7c24839f"
+					name: "53dc5ddb582040e3"
+					buffer: "86816963e19d88c2"
 				}
 			}
 		]
